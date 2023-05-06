@@ -122,8 +122,7 @@
                     <div class="header__nav__option">
                         <a href="#" class="search-switch"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/search.png" alt=""></a>
                         <a href="<?= bloginfo('url') ?>/wishlist"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/heart.png" alt=""></a>
-                        <a href="<?= WC()->cart->get_cart_url() ?>"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/cart.png" alt=""> <span><?= WC()->cart->get_cart_contents_count() ?></span></a>
-                        <div class="price">$<?= WC()->cart->cart_contents_total ?></div>
+                        <?php include 'mini-cart.php' ?>
                     </div>
                 </div>
             </div>

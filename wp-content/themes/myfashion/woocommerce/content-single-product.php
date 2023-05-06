@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying product content in the single-product.php template
  *
@@ -15,7 +16,7 @@
  * @version 3.6.0
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 global $product;
 
@@ -24,53 +25,85 @@ global $product;
  *
  * @hooked woocommerce_output_all_notices - 10
  */
-do_action( 'woocommerce_before_single_product' );
+do_action('woocommerce_before_single_product');
 
-if ( post_password_required() ) {
+if (post_password_required()) {
 	echo get_the_password_form(); // WPCS: XSS ok.
 	return;
 }
 ?>
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
 
-	<?php
-	/**
-	 * Hook: woocommerce_before_single_product_summary.
-	 *
-	 * @hooked woocommerce_show_product_sale_flash - 10
-	 * @hooked woocommerce_show_product_images - 20
-	 */
-	do_action( 'woocommerce_before_single_product_summary' );
-	?>
-
-	<div class="summary entry-summary">
-		<?php
-		/**
-		 * Hook: woocommerce_single_product_summary.
-		 *
-		 * @hooked woocommerce_template_single_title - 5
-		 * @hooked woocommerce_template_single_rating - 10
-		 * @hooked woocommerce_template_single_price - 10
-		 * @hooked woocommerce_template_single_excerpt - 20
-		 * @hooked woocommerce_template_single_add_to_cart - 30
-		 * @hooked woocommerce_template_single_meta - 40
-		 * @hooked woocommerce_template_single_sharing - 50
-		 * @hooked WC_Structured_Data::generate_product_data() - 60
-		 */
-		do_action( 'woocommerce_single_product_summary' );
-		?>
+<div <?php wc_product_class('shop-details', $product); ?> id="product-<?php the_ID(); ?>">
+	<div class="product__details__pic">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<?php woocommerce_breadcrumb([
+						'delimiter'   => '',
+						'wrap_before' => '<div class="product__details__breadcrumb">&nbsp;',
+						'wrap_after'  => '</div>',
+						'before' => '&nbsp;',
+						'after'  => '&nbsp;',
+					]) ?>
+				</div>
+			</div>
+			<div class="row">
+				<?php
+				/**
+				 * Hook: woocommerce_before_single_product_summary.
+				 *
+				 * @hooked woocommerce_show_product_sale_flash - 10
+				 * @hooked woocommerce_show_product_images - 20
+				 */
+				do_action('woocommerce_before_single_product_summary');
+				?>
+			</div>
+		</div>
+	</div>
+	<div class="product__details__content">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-8">
+					<div class="product__details__text">
+						<div class="summary entry-summary">
+							<?php
+							/**
+							 * Hook: woocommerce_single_product_summary.
+							 *
+							 * @hooked woocommerce_template_single_title - 5
+							 * @hooked woocommerce_template_single_rating - 10
+							 * @hooked woocommerce_template_single_price - 10
+							 * @hooked woocommerce_template_single_excerpt - 20
+							 * @hooked woocommerce_template_single_add_to_cart - 30
+							 * @hooked woocommerce_template_single_meta - 40
+							 * @hooked woocommerce_template_single_sharing - 50
+							 * @hooked WC_Structured_Data::generate_product_data() - 60
+							 */
+							do_action('woocommerce_single_product_summary');
+							?>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="product__details__tab">
+						<?php
+						/**
+						 * Hook: woocommerce_after_single_product_summary.
+						 *
+						 * @hooked woocommerce_output_product_data_tabs - 10
+						 * @hooked woocommerce_upsell_display - 15
+						 * @hooked woocommerce_output_related_products - 20
+						 */
+						do_action('woocommerce_after_single_product_summary');
+						?>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<?php
-	/**
-	 * Hook: woocommerce_after_single_product_summary.
-	 *
-	 * @hooked woocommerce_output_product_data_tabs - 10
-	 * @hooked woocommerce_upsell_display - 15
-	 * @hooked woocommerce_output_related_products - 20
-	 */
-	do_action( 'woocommerce_after_single_product_summary' );
-	?>
 </div>
 
-<?php do_action( 'woocommerce_after_single_product' ); ?>
+<?php do_action('woocommerce_after_single_product'); ?>

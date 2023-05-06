@@ -21,13 +21,15 @@ function initTheme()
 
 add_action('init', 'initTheme');
 
-require_once 'loop-product.php';
+// require_once 'loop-product.php';
 
 add_filter('woocommerce_add_to_cart_fragments', 'iconic_cart_count_fragments', 10, 1);
 function iconic_cart_count_fragments($fragments)
 {
-    global $woocommerce;
-    $fragments['.cart-contents-count'] = '<a  class="cart-contents-count" href="' . $woocommerce->cart->get_cart_url() . '"><i class="fa-solid fa-cart-shopping"></i> (' . WC()->cart->get_cart_contents_count() . ')</a>';
+    ob_start();
+    include 'mini-cart.php';
+    $mini_cart = ob_get_clean();
+    $fragments['.cart-contents-count'] = $mini_cart;
     return $fragments;
 }
 
