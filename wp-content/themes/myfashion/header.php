@@ -92,14 +92,14 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-1 col-md-1">
+                <div class="col-lg-1 col-md-1 header__logo__container">
                     <div class="header__logo">
                         <!-- <a href="./index.html"><img src="<?= bloginfo('template_directory') ?>/html/img/logo.png" alt=""></a> -->
                         <?= get_custom_logo() ?>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8">
-                    <nav class="header__menu mobile-menu">
+                    <nav class="header__menu mobile-menu" id="menu">
                         <?php wp_nav_menu() ?>
                         <!-- <ul>
                             <li class="active"><a href="./index.html">Home</a></li>
@@ -117,6 +117,12 @@
                             <li><a href="./contact.html">Contacts</a></li>
                         </ul> -->
                     </nav>
+                    <script>
+                        submenus = document.querySelectorAll('#menu .sub-menu')
+                        submenus?.forEach(e => {
+                            e?.classList?.add("dropdown")
+                        });
+                    </script>
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">

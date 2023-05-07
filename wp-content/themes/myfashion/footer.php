@@ -76,6 +76,7 @@
    <script src="<?= bloginfo('template_directory') ?>/html/js/mixitup.min.js"></script>
    <script src="<?= bloginfo('template_directory') ?>/html/js/owl.carousel.min.js"></script>
    <script src="<?= bloginfo('template_directory') ?>/html/js/main.js"></script>
+   <script src="<?= bloginfo('template_directory') ?>/custom.js"></script>
    </body>
 
    </html>
