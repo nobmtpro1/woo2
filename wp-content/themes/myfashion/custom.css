@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-}
-
 a {
   color: black;
   text-decoration: none;
@@ -10,6 +6,23 @@ a {
 a:hover {
   text-decoration: none;
   color: black;
+}
+
+.canvas__open{
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.nice-select .list {
+  right: 0 !important;
+  left: unset !important;
+}
+
+select{
+  border: 1px #cdcdcd solid;
+  background: transparent;
+  padding: 5px 10px;
 }
 
 .header__logo a img {
@@ -378,7 +391,9 @@ a:hover {
 }
 
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:hover {
+:where(body:not(.woocommerce-block-theme-has-button-styles))
+  .woocommerce
+  button.button:hover {
   background: white;
   color: black;
   border: 1px black solid;
@@ -389,8 +404,8 @@ a:hover {
   flex-direction: column;
 }
 
-
-.cart_totals h2, .cart-collaterals h2 {
+.cart_totals h2,
+.cart-collaterals h2 {
   color: #111111;
   text-transform: uppercase;
   margin-bottom: 12px;
@@ -447,8 +462,6 @@ a:hover {
   font-weight: bold;
 }
 
-
-
 .woocommerce-cart .wc-proceed-to-checkout {
   padding-bottom: 0;
 }
@@ -457,6 +470,6 @@ a:hover {
   margin-bottom: 0 !important;
 }
 
-.woocommerce-cart table.cart td.actions .coupon .input-text{
-  width: 150px;
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+  font-size: 12px;
 }

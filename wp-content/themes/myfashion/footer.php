@@ -68,7 +68,7 @@
    <!-- Js Plugins -->
    <script src="<?= bloginfo('template_directory') ?>/html/js/jquery-3.3.1.min.js"></script>
    <script src="<?= bloginfo('template_directory') ?>/html/js/bootstrap.min.js"></script>
-   <script src="<?= bloginfo('template_directory') ?>/html/js/jquery.nice-select.min.js"></script>
+   <!-- <script src="<?= bloginfo('template_directory') ?>/html/js/jquery.nice-select.min.js"></script> -->
    <script src="<?= bloginfo('template_directory') ?>/html/js/jquery.nicescroll.min.js"></script>
    <script src="<?= bloginfo('template_directory') ?>/html/js/jquery.magnific-popup.min.js"></script>
    <script src="<?= bloginfo('template_directory') ?>/html/js/jquery.countdown.min.js"></script>
