@@ -1,4 +1,5 @@
 <?php
+include 'customizer.php';
 function my_custom_wc_theme_support()
 {
     add_theme_support('woocommerce');
