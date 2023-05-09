@@ -571,6 +571,7 @@ button[disabled] {
   color: white;
   border: 1px black solid;
   padding: 20px;
+  text-transform: uppercase;
 }
 .woocommerce #payment #place_order:hover {
   background: white;
@@ -584,7 +585,7 @@ button[disabled] {
 
 .woocommerce table.shop_table {
   background: #f3f2ee;
-  padding: 20px;
+  padding: 10px;
 }
 
 .woocommerce form .form-row textarea {
@@ -607,6 +608,9 @@ button[disabled] {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px; */
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }
 
 #ship-to-different-address-checkbox{
@@ -625,3 +629,27 @@ button[disabled] {
   flex-direction: column;
   gap: 20px;
 } */
+
+.woocommerce-cart .cart-collaterals .cart_totals table{
+  padding: 10px;
+}
+
+.select2-container--default .select2-selection--single{
+  height: 38px !important;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ced4da;
+}
+
+.woocommerce-info{
+  background: #f3f2ee;
+  border-top-color: black;
+}
+
+.woocommerce-info::before{
+  color: black;
+}
+
+.woocommerce_checkout_billing,.woocommerce_checkout_shipping{
+  padding: 0;
+}
