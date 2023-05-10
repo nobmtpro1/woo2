@@ -14,6 +14,10 @@ a:hover {
   z-index: 999;
 }
 
+.header > .container{
+  max-width: 100% !important;
+}
+
 .header__top {
   display: block !important;
 }
@@ -22,6 +26,19 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header__nav__option img{
+  width: 18px;
+
+}
+.offcanvas__nav__option{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offcanvas__nav__option img{
+  width: 18px;
 }
 
 @media only screen and (max-width: 770px) {
@@ -603,7 +620,7 @@ button[disabled] {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-#ship-to-different-address label{
+#ship-to-different-address label {
   /* display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -613,14 +630,14 @@ button[disabled] {
   align-items: center;
 }
 
-#ship-to-different-address-checkbox{
+#ship-to-different-address-checkbox {
   cursor: pointer;
   margin-right: 10px;
   width: 20px;
   height: 20px;
 }
 
-#order_review_heading{
+#order_review_heading {
   margin-top: 50px;
 }
 
@@ -630,26 +647,86 @@ button[disabled] {
   gap: 20px;
 } */
 
-.woocommerce-cart .cart-collaterals .cart_totals table{
+.woocommerce-cart .cart-collaterals .cart_totals table {
   padding: 10px;
 }
 
-.select2-container--default .select2-selection--single{
+.select2-container--default .select2-selection--single {
   height: 38px !important;
   display: flex;
   align-items: center;
   border: 1px solid #ced4da;
 }
 
-.woocommerce-info{
+.woocommerce-info {
   background: #f3f2ee;
   border-top-color: black;
 }
 
-.woocommerce-info::before{
+.woocommerce-info::before {
   color: black;
 }
 
-.woocommerce_checkout_billing,.woocommerce_checkout_shipping{
+.woocommerce_checkout_billing,
+.woocommerce_checkout_shipping {
   padding: 0;
+}
+
+.woocommerce-thankyou-order-received {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.woocommerce ul.order_details {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-top: 20px;
+}
+
+.wc-bacs-bank-details-heading {
+  font-size: 20px;
+}
+
+.woocommerce .wc-bacs-bank-details-account-name {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.woocommerce .woocommerce-customer-details address {
+  padding: 20px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 30px;
+  background: #f3f2ee;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+
+.input-text {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit{
+  margin-right: 0;
+}
+
+#customer_login{
+  margin-left: 0;
+  margin-right: 0;
 }

@@ -34,7 +34,7 @@
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
-        <div class="offcanvas__option">
+        <!-- <div class="offcanvas__option">
             <div class="offcanvas__links">
                 <a href="#">Sign in</a>
                 <a href="#">FAQs</a>
@@ -47,12 +47,11 @@
                     <li>USD</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/search.png" alt=""></a>
-            <a href="#"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/heart.png" alt=""></a>
-            <a href="#"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/cart.png" alt=""> <span>0</span></a>
-            <div class="price">$0.00</div>
+            <a href="#"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/user.png" alt=""></a>
+            <?php include 'mini-cart.php' ?>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
@@ -71,7 +70,7 @@
                             <p>Free shipping, 30-day return or refund guarantee.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-5">
+                    <!-- <div class="col-lg-6 col-md-5">
                         <div class="header__top__right">
                             <div class="header__top__links">
                                 <a href="<?= bloginfo('url') ?>/my-account">Sign in</a>
@@ -86,7 +85,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -127,7 +126,7 @@
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
                         <a href="#" class="search-switch"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/search.png" alt=""></a>
-                        <a href="<?= bloginfo('url') ?>/wishlist"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/heart.png" alt=""></a>
+                        <a href="<?= bloginfo('url') ?>/my-account"><img src="<?= bloginfo('template_directory') ?>/html/img/icon/user.png" alt=""></a>
                         <?php include 'mini-cart.php' ?>
                     </div>
                 </div>
