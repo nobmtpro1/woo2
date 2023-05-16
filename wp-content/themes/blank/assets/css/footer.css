@@ -1,9 +1,10 @@
 .footer {
   /* width: 100%; */
   padding: 20px 100px;
-  background-color: #1c1e21;
+  background-color: black;
   color: whitesmoke;
   padding-top: 50px;
+  overflow: hidden;
 }
 
 .footer a {

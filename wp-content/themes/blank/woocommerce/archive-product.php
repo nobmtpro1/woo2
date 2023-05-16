@@ -20,7 +20,7 @@ defined('ABSPATH') || exit;
 
 get_header('shop');
 ?>
-<div class="container">
+<div class="container my-product-list">
 	<?php
 	/**
 	 * Hook: woocommerce_before_main_content.
@@ -107,5 +107,5 @@ get_header('shop');
 	do_action('woocommerce_sidebar');
 	?>
 </div>
-<?
+<?php
 get_footer('shop');

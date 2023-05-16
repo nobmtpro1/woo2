@@ -1,0 +1,31 @@
+.my-product-list {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.my-product-loop {
+  flex: 1;
+}
+
+.my-sidebar {
+  width: 250px;
+  list-style: none;
+  padding: 30px 0px;
+  margin: 0;
+}
+
+.my-add-to-cart-button {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: black !important;
+  color: white !important;
+  padding-top: 10px !important;
+  padding: 10px 10px !important;
+  margin: 5px 0 !important;
+  border-radius: 0 !important;
+  text-align: center;
+  margin-top: auto !important;
+}

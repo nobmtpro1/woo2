@@ -1,7 +1,4 @@
 <?php
-
-use Magento\Framework\View\TemplateEngine\Php;
-
 get_header() ?>
 <!-- Hero Section Begin -->
 <section class="hero">

@@ -4,6 +4,7 @@
   justify-content: flex-start;
   padding: 10px 100px;
   box-shadow: 0 2px 2px -2px gray;
+  overflow-x: hidden;
 }
 
 .header .logo img {
@@ -35,19 +36,19 @@
 }
 
 .header .links .cart-contents-count {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.header .search input{
-    border: none;
-    border-bottom: 1px black solid;
-    height: 20px;
-    font-size: 15px;
-    line-height: 20px;
+.header .search input {
+  border: none;
+  border-bottom: 1px black solid;
+  height: 20px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
-.header .search input:focus{
-    outline: none;
+.header .search input:focus {
+  outline: none;
 }

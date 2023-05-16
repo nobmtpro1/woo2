@@ -1,15 +1,7 @@
+@import url(global.css);
 @import url(header.css);
 @import url(footer.css);
-html {
-  font-family: "Open Sans", sans-serif;
-}
-body {
-  margin: 0;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-.container {
-  padding: 50px 100px !important;
-}
+@import url(products-page.css);
+@import url(woo.css);
+@import url(filter.css);
+@import url(cart.css);

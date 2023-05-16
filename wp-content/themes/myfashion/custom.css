@@ -14,7 +14,7 @@ a:hover {
   z-index: 999;
 }
 
-.header > .container{
+.header > .container {
   max-width: 100% !important;
 }
 
@@ -28,16 +28,15 @@ a:hover {
   align-items: center;
 }
 
-.header__nav__option img{
+.header__nav__option img {
   width: 18px;
-
 }
-.offcanvas__nav__option{
+.offcanvas__nav__option {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.offcanvas__nav__option img{
+.offcanvas__nav__option img {
   width: 18px;
 }
 
@@ -174,7 +173,8 @@ select {
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  top: 20px;
+  top: 50%;
+  transform: translateY(-100%);
 
   opacity: 0;
   visibility: hidden;
@@ -193,6 +193,8 @@ select {
   align-items: center !important;
   padding: 10px 15px !important;
   font-weight: bold !important;
+  line-height: 15px !important;
+  border-radius: 0  !important;
 }
 
 .loop-buttons a.button:hover {
@@ -722,11 +724,32 @@ button[disabled] {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.woocommerce .woocommerce-form-login .woocommerce-form-login__submit{
+.woocommerce .woocommerce-form-login .woocommerce-form-login__submit {
   margin-right: 0;
 }
 
-#customer_login{
+#customer_login {
   margin-left: 0;
   margin-right: 0;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles))
+  #respond
+  input#submit {
+  background: black;
+  color: white;
+  border: 1px transparent solid;
+  border-radius: 0;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles))
+  #respond
+  input#submit:hover {
+  background: white;
+  color: black;
+  border: 1px black solid;
+}
+
+.woocommerce table.my_account_orders tbody tr td{
+  padding: 20px 10px;
 }

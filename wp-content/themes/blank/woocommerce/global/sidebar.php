@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Sidebar
  *
@@ -15,10 +16,16 @@
  * @version     1.6.4
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly
 }
 
-get_sidebar( 'shop' );
-
+// get_sidebar('shop');
+?>
+<ul class="my-sidebar">
+	<?php
+	dynamic_sidebar('first_sidebar');
+	?>
+</ul>
+<?php
 /* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */

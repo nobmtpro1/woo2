@@ -1,0 +1,28 @@
+.my-cart-apply-coupon-button {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: auto !important;
+  background: black !important;
+  color: white !important;
+  padding-top: 10px !important;
+  padding: 10px 10px !important;
+  margin: 5px 0 !important;
+  border-radius: 0 !important;
+  text-align: center;
+  margin-top: auto !important;
+}
+.my-cart-apply-coupon-input {
+  width: auto !important;
+}
+
+.my-cart-actions {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.my-process-checkout-button {
+  background: black !important;
+  color: white !important;
+  border-radius: 0 !important;
+}
