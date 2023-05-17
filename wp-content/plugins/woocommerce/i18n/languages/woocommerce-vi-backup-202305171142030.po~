@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 07:57+0000\n"
+"PO-Revision-Date: 2023-05-17 11:41+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -1160,7 +1160,7 @@ msgstr ""
 #: includes/wc-cart-functions.php:118
 msgid "%s has been added to your cart."
 msgid_plural "%s have been added to your cart."
-msgstr[0] ""
+msgstr[0] "%s đã được thêm vào giỏ hàng"
 
 #. translators: %s: product name
 #: includes/class-wc-cart-session.php:167
@@ -1251,7 +1251,7 @@ msgstr ""
 #. translators: %s Field label.
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/OrderController.php:400
 msgid "%s is required"
-msgstr ""
+msgstr "%s là bắt buộc"
 
 #. translators: variations count
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:142
@@ -1469,7 +1469,7 @@ msgstr ""
 #: includes/class-wc-form-handler.php:628
 #: includes/class-wc-form-handler.php:632
 msgid "%s removed."
-msgstr ""
+msgstr "%s đã bị xóa."
 
 #: assets/client/admin/chunks/dashboard-charts.js:1
 msgid "%s Report"
@@ -2575,7 +2575,7 @@ msgstr ""
 #: includes/gateways/class-wc-payment-gateway-echeck.php:51
 #: assets/client/admin/app/index.js:2
 msgid "Account number"
-msgstr ""
+msgstr "Số tài khoản"
 
 #: packages/woocommerce-blocks/build/checkout.js:33
 msgid "Account options"
@@ -5946,7 +5946,7 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:319
 msgid "Bank"
-msgstr ""
+msgstr "Ngân hàng"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:422
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:427
@@ -8627,7 +8627,7 @@ msgstr "Tổng giỏ hàng"
 
 #: includes/class-wc-form-handler.php:706
 msgid "Cart updated."
-msgstr ""
+msgstr "Đã cập nhật giỏ hàng"
 
 #: i18n/states.php:375
 msgid "Cartago"
@@ -15640,7 +15640,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/single-product.js:6
 #: packages/woocommerce-blocks/build/stock-filter-frontend.js:1
 msgid "Error:"
-msgstr ""
+msgstr "Lỗi"
 
 #. translators: %s: error message
 #: includes/class-wc-ajax.php:1025 includes/wc-rest-functions.php:99
@@ -24433,7 +24433,7 @@ msgstr ""
 #: templates/myaccount/form-login.php:54
 #: packages/woocommerce-blocks/build/customer-account.js:1
 msgid "Log in"
-msgstr ""
+msgstr "Đăng nhập"
 
 #: includes/class-wc-download-handler.php:194
 msgid "Log in to Download Files"
@@ -24463,7 +24463,7 @@ msgstr ""
 #: templates/auth/form-login.php:49 templates/global/form-login.php:51
 #: templates/myaccount/form-login.php:32
 msgid "Login"
-msgstr ""
+msgstr "Đăng nhập"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:301
 #: includes/wc-account-functions.php:105
@@ -24541,7 +24541,7 @@ msgstr ""
 
 #: templates/global/form-login.php:54 templates/myaccount/form-login.php:57
 msgid "Lost your password?"
-msgstr ""
+msgstr "Quên mật khẩu?"
 
 #: templates/myaccount/form-lost-password.php:25
 msgid ""
@@ -28179,6 +28179,8 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout.js:33
 msgid "Notes about your order, e.g. special notes for delivery."
 msgstr ""
+"\n"
+"Ghi chú về đơn đặt hàng của bạn, ví dụ: ghi chú đặc biệt cho giao hàng."
 
 #: packages/woocommerce-blocks/build/checkout-blocks/order-note-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout.js:33
@@ -28811,6 +28813,8 @@ msgstr ""
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
+"Chỉ những khách hàng đã đăng nhập và đã mua sản phẩm này mới có thể để lại "
+"đánh giá."
 
 #: includes/class-wc-post-types.php:529 assets/client/admin/chunks/3628.js:1
 msgid "Only shipping"
@@ -30342,7 +30346,7 @@ msgstr ""
 #: templates/global/form-login.php:38 templates/myaccount/form-login.php:43
 #: templates/myaccount/form-login.php:93
 msgid "Password"
-msgstr ""
+msgstr "Mật khẩu"
 
 #: templates/myaccount/form-edit-account.php:48
 msgid "Password change"
@@ -31393,7 +31397,7 @@ msgstr ""
 
 #: includes/class-wc-coupon.php:1091
 msgid "Please enter a coupon code."
-msgstr ""
+msgstr "Vui lòng nhập mã giảm giá"
 
 #: includes/gateways/paypal/includes/settings-paypal.php:86
 msgid ""
@@ -31527,7 +31531,7 @@ msgstr ""
 #: includes/class-wc-form-handler.php:285 includes/wc-user-functions.php:46
 #: packages/woocommerce-blocks/src/StoreApi/Routes/V1/Checkout.php:670
 msgid "Please provide a valid email address."
-msgstr ""
+msgstr "Vui lòng nhập đúng email"
 
 #: src/Admin/API/Notes.php:466
 msgid "Please provide a valid promo note name."
@@ -34345,7 +34349,7 @@ msgstr ""
 
 #: templates/myaccount/form-login.php:70 templates/myaccount/form-login.php:107
 msgid "Register"
-msgstr ""
+msgstr "Đăng ký"
 
 #: assets/client/admin/chunks/analytics-report-customers.js:1
 msgid "Registered"
@@ -34408,7 +34412,7 @@ msgstr ""
 
 #: includes/wc-template-functions.php:1495
 msgid "Relevance"
-msgstr ""
+msgstr "Liên quan"
 
 #: i18n/states.php:494
 msgid "Relizane"
@@ -34430,7 +34434,7 @@ msgstr ""
 
 #: templates/global/form-login.php:47 templates/myaccount/form-login.php:51
 msgid "Remember me"
-msgstr ""
+msgstr "Ghi nhớ đăng nhập"
 
 #: assets/client/admin/chunks/store-alerts.js:1
 msgid "Remind Me Later"
@@ -46634,7 +46638,7 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:629
 msgid "Undo?"
-msgstr ""
+msgstr "Hoàn tác?"
 
 #. translators: 1: error message 2: filename 3: line
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
@@ -47512,7 +47516,7 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:952
 msgid "Username is required."
-msgstr ""
+msgstr "Bạn chưa nhập username"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:412
 msgid "Username isn't editable."
@@ -47525,7 +47529,7 @@ msgstr ""
 
 #: templates/auth/form-login.php:40 templates/myaccount/form-login.php:39
 msgid "Username or email address"
-msgstr ""
+msgstr "Username hoặc email"
 
 #: src/Admin/API/Reports/Customers/Controller.php:246
 msgid "Username."
@@ -48127,7 +48131,7 @@ msgstr ""
 #: includes/class-wc-frontend-scripts.php:578
 #: includes/wc-cart-functions.php:126 includes/wc-template-functions.php:2225
 msgid "View cart"
-msgstr ""
+msgstr "Xem giỏ hàng"
 
 #: packages/woocommerce-blocks/build/wc-shipping-method-pickup-location.js:80
 msgid "View checkout page"
