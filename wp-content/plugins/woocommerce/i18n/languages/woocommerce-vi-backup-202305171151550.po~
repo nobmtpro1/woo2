@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 11:33+0000\n"
+"PO-Revision-Date: 2023-05-17 11:42+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -1469,7 +1469,7 @@ msgstr ""
 #: includes/class-wc-form-handler.php:628
 #: includes/class-wc-form-handler.php:632
 msgid "%s removed."
-msgstr ""
+msgstr "%s đã bị xóa."
 
 #: assets/client/admin/chunks/dashboard-charts.js:1
 msgid "%s Report"
@@ -8627,7 +8627,7 @@ msgstr "Tổng giỏ hàng"
 
 #: includes/class-wc-form-handler.php:706
 msgid "Cart updated."
-msgstr ""
+msgstr "Đã cập nhật giỏ hàng"
 
 #: i18n/states.php:375
 msgid "Cartago"
@@ -10901,7 +10901,7 @@ msgstr[0] ""
 #. translators: %s: coupon code
 #: includes/class-wc-coupon.php:988 includes/class-wc-discounts.php:592
 msgid "Coupon \"%s\" does not exist!"
-msgstr ""
+msgstr "Mã giảm giá \"%s\" không tồn tại!"
 
 #. translators: Actual coupon code.
 #: includes/abstracts/abstract-wc-order.php:1155
@@ -31397,7 +31397,7 @@ msgstr ""
 
 #: includes/class-wc-coupon.php:1091
 msgid "Please enter a coupon code."
-msgstr ""
+msgstr "Vui lòng nhập mã giảm giá"
 
 #: includes/gateways/paypal/includes/settings-paypal.php:86
 msgid ""
@@ -46638,7 +46638,7 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:629
 msgid "Undo?"
-msgstr ""
+msgstr "Hoàn tác?"
 
 #. translators: 1: error message 2: filename 3: line
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118

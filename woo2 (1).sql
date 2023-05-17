@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 17, 2023 lúc 01:44 PM
+-- Thời gian đã tạo: Th5 17, 2023 lúc 02:12 PM
 -- Phiên bản máy phục vụ: 10.4.27-MariaDB
 -- Phiên bản PHP: 7.4.33
 
@@ -127,7 +127,8 @@ INSERT INTO `wp_actionscheduler_actions` (`action_id`, `hook`, `status`, `schedu
 (82, 'wc-admin_import_orders', 'complete', '2023-05-17 02:47:11', '2023-05-17 02:47:11', '[99]', 'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1684291631;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1684291631;}', 3, 1, '2023-05-17 02:48:10', '2023-05-17 02:48:10', 0, NULL),
 (83, 'wc-admin_import_orders', 'complete', '2023-05-17 06:40:40', '2023-05-17 06:40:40', '[100]', 'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1684305640;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1684305640;}', 3, 1, '2023-05-17 06:40:51', '2023-05-17 06:40:51', 0, NULL),
 (84, 'action_scheduler/migration_hook', 'complete', '2023-05-17 07:18:06', '2023-05-17 07:18:06', '[]', 'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1684307886;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1684307886;}', 1, 1, '2023-05-17 07:18:08', '2023-05-17 07:18:08', 0, NULL),
-(85, 'wc-admin_import_orders', 'complete', '2023-05-17 07:54:31', '2023-05-17 07:54:31', '[102]', 'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1684310071;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1684310071;}', 3, 1, '2023-05-17 07:55:04', '2023-05-17 07:55:04', 0, NULL);
+(85, 'wc-admin_import_orders', 'complete', '2023-05-17 07:54:31', '2023-05-17 07:54:31', '[102]', 'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1684310071;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1684310071;}', 3, 1, '2023-05-17 07:55:04', '2023-05-17 07:55:04', 0, NULL),
+(86, 'wc-admin_import_orders', 'complete', '2023-05-17 12:06:58', '2023-05-17 12:06:58', '[103]', 'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1684325218;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1684325218;}', 3, 1, '2023-05-17 12:07:08', '2023-05-17 12:07:08', 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -417,7 +418,10 @@ INSERT INTO `wp_actionscheduler_logs` (`log_id`, `action_id`, `message`, `log_da
 (235, 84, 'action complete via Async Request', '2023-05-17 07:18:08', '2023-05-17 07:18:08'),
 (236, 85, 'action created', '2023-05-17 07:54:26', '2023-05-17 07:54:26'),
 (237, 85, 'action started via WP Cron', '2023-05-17 07:55:04', '2023-05-17 07:55:04'),
-(238, 85, 'action complete via WP Cron', '2023-05-17 07:55:04', '2023-05-17 07:55:04');
+(238, 85, 'action complete via WP Cron', '2023-05-17 07:55:04', '2023-05-17 07:55:04'),
+(239, 86, 'action created', '2023-05-17 12:06:53', '2023-05-17 12:06:53'),
+(240, 86, 'action started via WP Cron', '2023-05-17 12:07:08', '2023-05-17 12:07:08'),
+(241, 86, 'action complete via WP Cron', '2023-05-17 12:07:08', '2023-05-17 12:07:08');
 
 -- --------------------------------------------------------
 
@@ -624,7 +628,8 @@ INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `c
 (8, 98, 'admin', 'nobmtpro2025@gmail.com', '', '', '2023-05-15 03:53:34', '2023-05-15 03:53:34', 'Order status changed from Processing to Completed.', 0, '1', 'WooCommerce', 'order_note', 0, 0),
 (9, 99, 'WooCommerce', '', '', '', '2023-05-17 02:47:06', '2023-05-17 02:47:06', 'Awaiting BACS payment Order status changed from Pending payment to On hold.', 0, '1', 'WooCommerce', 'order_note', 0, 0),
 (10, 100, 'WooCommerce', '', '', '', '2023-05-17 06:40:35', '2023-05-17 06:40:35', 'Payment to be made upon delivery. Order status changed from Pending payment to On hold.', 0, '1', 'WooCommerce', 'order_note', 0, 0),
-(11, 102, 'WooCommerce', '', '', '', '2023-05-17 07:54:26', '2023-05-17 07:54:26', 'Awaiting BACS payment Order status changed from Pending payment to On hold.', 0, '1', 'WooCommerce', 'order_note', 0, 0);
+(11, 102, 'WooCommerce', '', '', '', '2023-05-17 07:54:26', '2023-05-17 07:54:26', 'Awaiting BACS payment Order status changed from Pending payment to On hold.', 0, '1', 'WooCommerce', 'order_note', 0, 0),
+(12, 103, 'WooCommerce', '', '', '', '2023-05-17 12:06:53', '2023-05-17 12:06:53', 'Awaiting BACS payment Order status changed from Pending payment to On hold.', 0, '1', 'WooCommerce', 'order_note', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -769,7 +774,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (102, 'user_count', '3', 'no'),
 (103, 'widget_block', 'a:7:{i:2;a:1:{s:7:\"content\";s:19:\"<!-- wp:search /-->\";}i:3;a:1:{s:7:\"content\";s:154:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->\";}i:4;a:1:{s:7:\"content\";s:227:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->\";}i:5;a:1:{s:7:\"content\";s:146:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->\";}i:6;a:1:{s:7:\"content\";s:150:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->\";}i:7;a:1:{s:7:\"content\";s:692:\"<!-- wp:woocommerce/filter-wrapper {\"filterType\":\"attribute-filter\",\"heading\":\"Filter by attribute\"} -->\n<div class=\"wp-block-woocommerce-filter-wrapper\"><!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Color</h3>\n<!-- /wp:heading -->\n\n<!-- wp:woocommerce/attribute-filter {\"attributeId\":1,\"heading\":\"\",\"lock\":{\"remove\":true}} -->\n<div class=\"wp-block-woocommerce-attribute-filter is-loading\" data-attribute-id=\"1\" data-show-counts=\"true\" data-query-type=\"or\" data-heading=\"\" data-heading-level=\"3\"><span aria-hidden=\"true\" class=\"wc-block-product-attribute-filter__placeholder\"></span></div>\n<!-- /wp:woocommerce/attribute-filter --></div>\n<!-- /wp:woocommerce/filter-wrapper -->\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (104, 'sidebars_widgets', 'a:3:{s:19:\"wp_inactive_widgets\";a:6:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";i:3;s:7:\"block-5\";i:4;s:7:\"block-6\";i:5;s:7:\"block-7\";}s:13:\"first_sidebar\";a:5:{i:0;s:22:\"berocket_aapf_single-3\";i:1;s:22:\"berocket_aapf_single-4\";i:2;s:22:\"berocket_aapf_single-5\";i:3;s:22:\"berocket_aapf_single-2\";i:4;s:22:\"berocket_aapf_single-6\";}s:13:\"array_version\";i:3;}', 'yes'),
-(105, 'cron', 'a:23:{i:1684323902;a:1:{s:26:\"action_scheduler_run_queue\";a:1:{s:32:\"0d04ed39571b55704c122d726248bbac\";a:3:{s:8:\"schedule\";s:12:\"every_minute\";s:4:\"args\";a:1:{i:0;s:7:\"WP Cron\";}s:8:\"interval\";i:60;}}}i:1684325164;a:1:{s:32:\"woocommerce_cancel_unpaid_orders\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:0:{}}}}i:1684325857;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1684325889;a:1:{s:33:\"wc_admin_process_orders_milestone\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1684325903;a:1:{s:29:\"wc_admin_unsnooze_admin_notes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1684329076;a:1:{s:33:\"updraftplus_clean_temporary_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684331175;a:1:{s:34:\"yith_wcwl_delete_expired_wishlists\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684339776;a:1:{s:29:\"astra_get_knowledge_base_data\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684340257;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684340264;a:1:{s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684357774;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684368000;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684379384;a:2:{s:33:\"woocommerce_cleanup_personal_data\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684379537;a:1:{s:31:\"wpseo_permalink_structure_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383457;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383464;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383466;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383485;a:1:{s:14:\"wc_admin_daily\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684390174;a:2:{s:24:\"woocommerce_cleanup_logs\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:31:\"woocommerce_cleanup_rate_limits\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684398283;a:1:{s:13:\"wpseo-reindex\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684556257;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}i:1685502634;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:11:\"fifteendays\";s:4:\"args\";a:0:{}s:8:\"interval\";i:1296000;}}}s:7:\"version\";i:2;}', 'yes'),
+(105, 'cron', 'a:23:{i:1684325522;a:1:{s:26:\"action_scheduler_run_queue\";a:1:{s:32:\"0d04ed39571b55704c122d726248bbac\";a:3:{s:8:\"schedule\";s:12:\"every_minute\";s:4:\"args\";a:1:{i:0;s:7:\"WP Cron\";}s:8:\"interval\";i:60;}}}i:1684325857;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1684325889;a:1:{s:33:\"wc_admin_process_orders_milestone\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1684325903;a:1:{s:29:\"wc_admin_unsnooze_admin_notes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1684328770;a:1:{s:32:\"woocommerce_cancel_unpaid_orders\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:0:{}}}}i:1684329076;a:1:{s:33:\"updraftplus_clean_temporary_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684331175;a:1:{s:34:\"yith_wcwl_delete_expired_wishlists\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684339776;a:1:{s:29:\"astra_get_knowledge_base_data\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684340257;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684340264;a:1:{s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684357774;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1684368000;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684379384;a:2:{s:33:\"woocommerce_cleanup_personal_data\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684379537;a:1:{s:31:\"wpseo_permalink_structure_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383457;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383464;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383466;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684383485;a:1:{s:14:\"wc_admin_daily\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684390174;a:2:{s:24:\"woocommerce_cleanup_logs\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:31:\"woocommerce_cleanup_rate_limits\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684398283;a:1:{s:13:\"wpseo-reindex\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1684556257;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}i:1685502634;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:11:\"fifteendays\";s:4:\"args\";a:0:{}s:8:\"interval\";i:1296000;}}}s:7:\"version\";i:2;}', 'yes'),
 (106, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (107, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (108, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -925,7 +930,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (290, 'woocommerce_admin_install_timestamp', '1683260286', 'yes'),
 (291, 'woocommerce_inbox_variant_assignment', '12', 'yes'),
 (295, '_transient_jetpack_autoloader_plugin_paths', 'a:1:{i:0;s:29:\"{{WP_PLUGIN_DIR}}/woocommerce\";}', 'yes'),
-(296, 'action_scheduler_lock_async-request-runner', '1684323784', 'yes'),
+(296, 'action_scheduler_lock_async-request-runner', '1684325530', 'yes'),
 (297, 'woocommerce_admin_notices', 'a:1:{i:1;s:20:\"no_secure_connection\";}', 'yes'),
 (298, 'woocommerce_maxmind_geolocation_settings', 'a:1:{s:15:\"database_prefix\";s:32:\"3dDhsKryVrKxvRNSYC4YlQIJjmhpuiON\";}', 'yes'),
 (299, '_transient_woocommerce_webhook_ids_status_active', 'a:0:{}', 'yes'),
@@ -947,7 +952,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (328, 'wc_remote_inbox_notifications_stored_state', 'O:8:\"stdClass\":2:{s:22:\"there_were_no_products\";b:1;s:22:\"there_are_now_products\";b:1;}', 'no'),
 (332, 'wc_blocks_db_schema_version', '260', 'yes'),
-(343, '_transient_woocommerce_reports-transient-version', '1684310104', 'yes'),
+(343, '_transient_woocommerce_reports-transient-version', '1684325228', 'yes'),
 (344, '_transient_timeout_orders-all-statuses', '1684914907', 'no'),
 (345, '_transient_orders-all-statuses', 'a:2:{s:7:\"version\";s:10:\"1684310104\";s:5:\"value\";a:2:{i:0;s:10:\"wc-on-hold\";i:1;s:12:\"wc-completed\";}}', 'no'),
 (357, 'woocommerce_task_list_tracked_completed_tasks', 'a:8:{i:0;s:8:\"purchase\";i:1;s:13:\"store_details\";i:2;s:8:\"shipping\";i:3;s:8:\"products\";i:4;s:8:\"payments\";i:5;s:3:\"tax\";i:6;s:10:\"appearance\";i:7;s:15:\"review-shipping\";}', 'yes'),
@@ -1124,7 +1129,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (1364, 'theme_mods_bogaty-lite', 'a:4:{i:0;b:0;s:18:\"nav_menu_locations\";a:0:{}s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1683354545;s:4:\"data\";a:3:{s:19:\"wp_inactive_widgets\";a:6:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";i:3;s:7:\"block-5\";i:4;s:7:\"block-6\";i:5;s:7:\"block-7\";}s:9:\"sidebar-1\";a:6:{i:0;s:7:\"block-8\";i:1;s:22:\"berocket_aapf_single-3\";i:2;s:22:\"berocket_aapf_single-4\";i:3;s:22:\"berocket_aapf_single-5\";i:4;s:22:\"berocket_aapf_single-2\";i:5;s:22:\"berocket_aapf_single-6\";}s:9:\"sidebar-2\";a:0:{}}}}', 'yes'),
 (1367, 'widget_bogaty-recent-posts', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (1371, '_transient_bogaty_categories', '1', 'yes'),
-(1474, '_transient_orders-transient-version', '1684310069', 'yes'),
+(1474, '_transient_orders-transient-version', '1684325217', 'yes'),
 (1475, '_transient_timeout_wc_customer_bought_product_d581e3777eb0e8891773905290c40dfc', '1685952648', 'no'),
 (1476, '_transient_wc_customer_bought_product_d581e3777eb0e8891773905290c40dfc', 'a:2:{s:7:\"version\";s:10:\"1683360648\";s:5:\"value\";a:0:{}}', 'no'),
 (1503, 'yoast_migrations_free', 'a:1:{s:7:\"version\";s:4:\"20.7\";}', 'yes');
@@ -1232,7 +1237,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (3441, '_transient_wc_report_orders_stats_ad438823d6ef810c9af9741521595b5c', 'a:2:{s:7:\"version\";s:10:\"1684125632\";s:5:\"value\";O:8:\"stdClass\":5:{s:6:\"totals\";O:8:\"stdClass\":15:{s:12:\"orders_count\";i:1;s:14:\"num_items_sold\";i:1;s:11:\"gross_sales\";d:18;s:11:\"total_sales\";d:28;s:7:\"coupons\";d:0;s:13:\"coupons_count\";i:0;s:7:\"refunds\";d:0;s:5:\"taxes\";d:0;s:8:\"shipping\";d:10;s:11:\"net_revenue\";d:18;s:19:\"avg_items_per_order\";d:1;s:15:\"avg_order_value\";d:18;s:15:\"total_customers\";i:1;s:8:\"products\";i:1;s:8:\"segments\";a:0:{}}s:9:\"intervals\";a:1:{i:0;a:6:{s:8:\"interval\";s:7:\"2023-20\";s:10:\"date_start\";s:19:\"2023-05-15 00:00:00\";s:14:\"date_start_gmt\";s:19:\"2023-05-15 00:00:00\";s:8:\"date_end\";s:19:\"2023-05-15 13:19:30\";s:12:\"date_end_gmt\";s:19:\"2023-05-15 13:19:30\";s:9:\"subtotals\";O:8:\"stdClass\":14:{s:12:\"orders_count\";i:1;s:14:\"num_items_sold\";i:1;s:11:\"gross_sales\";d:18;s:11:\"total_sales\";d:28;s:7:\"coupons\";d:0;s:13:\"coupons_count\";i:0;s:7:\"refunds\";d:0;s:5:\"taxes\";d:0;s:8:\"shipping\";d:10;s:11:\"net_revenue\";d:18;s:19:\"avg_items_per_order\";d:1;s:15:\"avg_order_value\";d:18;s:15:\"total_customers\";i:1;s:8:\"segments\";a:0:{}}}}s:5:\"total\";i:1;s:5:\"pages\";i:1;s:7:\"page_no\";i:1;}}', 'no'),
 (3483, '_transient_timeout_wc_related_26', '1684408875', 'no'),
 (3484, '_transient_wc_related_26', 'a:1:{s:50:\"limit=4&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=26\";a:1:{i:0;s:2:\"27\";}}', 'no'),
-(3507, '_transient_timeout_wc_related_36', '1684393799', 'no'),
+(3507, '_transient_timeout_wc_related_36', '1684411538', 'no'),
 (3508, '_transient_wc_related_36', 'a:1:{s:50:\"limit=4&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=36\";a:0:{}}', 'no'),
 (3573, '_transient_wc_attribute_taxonomies', 'a:2:{i:0;O:8:\"stdClass\":6:{s:12:\"attribute_id\";s:1:\"1\";s:14:\"attribute_name\";s:5:\"color\";s:15:\"attribute_label\";s:5:\"Color\";s:14:\"attribute_type\";s:6:\"select\";s:17:\"attribute_orderby\";s:10:\"menu_order\";s:16:\"attribute_public\";s:1:\"1\";}i:1;O:8:\"stdClass\":6:{s:12:\"attribute_id\";s:1:\"2\";s:14:\"attribute_name\";s:4:\"size\";s:15:\"attribute_label\";s:4:\"Size\";s:14:\"attribute_type\";s:6:\"select\";s:17:\"attribute_orderby\";s:10:\"menu_order\";s:16:\"attribute_public\";s:1:\"1\";}}', 'yes'),
 (3577, '_transient_timeout_woocommerce_admin_remote_free_extensions_specs', '1684903371', 'no');
@@ -1247,7 +1252,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (3644, '_transient_wc_child_has_weight_14', '0', 'no'),
 (3645, '_transient_timeout_wc_child_has_dimensions_14', '1686800244', 'no'),
 (3646, '_transient_wc_child_has_dimensions_14', '0', 'no'),
-(3659, '_transient_timeout_wc_related_27', '1684395184', 'no'),
+(3659, '_transient_timeout_wc_related_27', '1684411498', 'no'),
 (3660, '_transient_wc_related_27', 'a:1:{s:50:\"limit=4&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=27\";a:1:{i:0;s:2:\"26\";}}', 'no'),
 (3790, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1684342093', 'no'),
 (3791, '_site_transient_community-events-d41d8cd98f00b204e9800998ecf8427e', 'a:4:{s:9:\"sandboxed\";b:0;s:5:\"error\";N;s:8:\"location\";a:1:{s:2:\"ip\";b:0;}s:6:\"events\";a:0:{}}', 'no'),
@@ -1306,7 +1311,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (4022, '_transient_timeout_wc_order_99_needs_processing', '1684378026', 'no'),
 (4023, '_transient_wc_order_99_needs_processing', '1', 'no'),
-(4027, '_transient_timeout_wc_related_16', '1684395605', 'no'),
+(4027, '_transient_timeout_wc_related_16', '1684411553', 'no'),
 (4028, '_transient_wc_related_16', 'a:1:{s:50:\"limit=4&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=16\";a:2:{i:0;s:2:\"15\";i:1;s:2:\"23\";}}', 'no'),
 (4031, '_site_transient_timeout_poptags_40cd750bba9870f18aada2478b24840a', '1684302693', 'no'),
 (4032, '_site_transient_poptags_40cd750bba9870f18aada2478b24840a', 'O:8:\"stdClass\":100:{s:11:\"woocommerce\";a:3:{s:4:\"name\";s:11:\"woocommerce\";s:4:\"slug\";s:11:\"woocommerce\";s:5:\"count\";i:6096;}s:6:\"widget\";a:3:{s:4:\"name\";s:6:\"widget\";s:4:\"slug\";s:6:\"widget\";s:5:\"count\";i:4821;}s:4:\"post\";a:3:{s:4:\"name\";s:4:\"post\";s:4:\"slug\";s:4:\"post\";s:5:\"count\";i:2787;}s:5:\"admin\";a:3:{s:4:\"name\";s:5:\"admin\";s:4:\"slug\";s:5:\"admin\";s:5:\"count\";i:2673;}s:5:\"posts\";a:3:{s:4:\"name\";s:5:\"posts\";s:4:\"slug\";s:5:\"posts\";s:5:\"count\";i:2053;}s:9:\"shortcode\";a:3:{s:4:\"name\";s:9:\"shortcode\";s:4:\"slug\";s:9:\"shortcode\";s:5:\"count\";i:1917;}s:8:\"comments\";a:3:{s:4:\"name\";s:8:\"comments\";s:4:\"slug\";s:8:\"comments\";s:5:\"count\";i:1907;}s:3:\"seo\";a:3:{s:4:\"name\";s:3:\"seo\";s:4:\"slug\";s:3:\"seo\";s:5:\"count\";i:1642;}s:6:\"images\";a:3:{s:4:\"name\";s:6:\"images\";s:4:\"slug\";s:6:\"images\";s:5:\"count\";i:1567;}s:5:\"image\";a:3:{s:4:\"name\";s:5:\"image\";s:4:\"slug\";s:5:\"image\";s:5:\"count\";i:1555;}s:6:\"google\";a:3:{s:4:\"name\";s:6:\"google\";s:4:\"slug\";s:6:\"google\";s:5:\"count\";i:1549;}s:7:\"twitter\";a:3:{s:4:\"name\";s:7:\"twitter\";s:4:\"slug\";s:7:\"twitter\";s:5:\"count\";i:1515;}s:8:\"facebook\";a:3:{s:4:\"name\";s:8:\"facebook\";s:4:\"slug\";s:8:\"facebook\";s:5:\"count\";i:1507;}s:9:\"ecommerce\";a:3:{s:4:\"name\";s:9:\"ecommerce\";s:4:\"slug\";s:9:\"ecommerce\";s:5:\"count\";i:1484;}s:5:\"email\";a:3:{s:4:\"name\";s:5:\"email\";s:4:\"slug\";s:5:\"email\";s:5:\"count\";i:1366;}s:7:\"sidebar\";a:3:{s:4:\"name\";s:7:\"sidebar\";s:4:\"slug\";s:7:\"sidebar\";s:5:\"count\";i:1316;}s:7:\"gallery\";a:3:{s:4:\"name\";s:7:\"gallery\";s:4:\"slug\";s:7:\"gallery\";s:5:\"count\";i:1271;}s:4:\"page\";a:3:{s:4:\"name\";s:4:\"page\";s:4:\"slug\";s:4:\"page\";s:5:\"count\";i:1175;}s:6:\"social\";a:3:{s:4:\"name\";s:6:\"social\";s:4:\"slug\";s:6:\"social\";s:5:\"count\";i:1156;}s:5:\"login\";a:3:{s:4:\"name\";s:5:\"login\";s:4:\"slug\";s:5:\"login\";s:5:\"count\";i:1147;}s:8:\"security\";a:3:{s:4:\"name\";s:8:\"security\";s:4:\"slug\";s:8:\"security\";s:5:\"count\";i:1053;}s:10:\"e-commerce\";a:3:{s:4:\"name\";s:10:\"e-commerce\";s:4:\"slug\";s:10:\"e-commerce\";s:5:\"count\";i:1019;}s:5:\"video\";a:3:{s:4:\"name\";s:5:\"video\";s:4:\"slug\";s:5:\"video\";s:5:\"count\";i:999;}s:7:\"widgets\";a:3:{s:4:\"name\";s:7:\"widgets\";s:4:\"slug\";s:7:\"widgets\";s:5:\"count\";i:966;}s:5:\"links\";a:3:{s:4:\"name\";s:5:\"links\";s:4:\"slug\";s:5:\"links\";s:5:\"count\";i:903;}s:7:\"payment\";a:3:{s:4:\"name\";s:7:\"payment\";s:4:\"slug\";s:7:\"payment\";s:5:\"count\";i:894;}s:9:\"analytics\";a:3:{s:4:\"name\";s:9:\"analytics\";s:4:\"slug\";s:9:\"analytics\";s:5:\"count\";i:879;}s:4:\"spam\";a:3:{s:4:\"name\";s:4:\"spam\";s:4:\"slug\";s:4:\"spam\";s:5:\"count\";i:879;}s:4:\"form\";a:3:{s:4:\"name\";s:4:\"form\";s:4:\"slug\";s:4:\"form\";s:5:\"count\";i:876;}s:7:\"content\";a:3:{s:4:\"name\";s:7:\"content\";s:4:\"slug\";s:7:\"content\";s:5:\"count\";i:869;}s:6:\"slider\";a:3:{s:4:\"name\";s:6:\"slider\";s:4:\"slug\";s:6:\"slider\";s:5:\"count\";i:868;}s:9:\"gutenberg\";a:3:{s:4:\"name\";s:9:\"gutenberg\";s:4:\"slug\";s:9:\"gutenberg\";s:5:\"count\";i:832;}s:5:\"block\";a:3:{s:4:\"name\";s:5:\"block\";s:4:\"slug\";s:5:\"block\";s:5:\"count\";i:797;}s:5:\"media\";a:3:{s:4:\"name\";s:5:\"media\";s:4:\"slug\";s:5:\"media\";s:5:\"count\";i:795;}s:10:\"buddypress\";a:3:{s:4:\"name\";s:10:\"buddypress\";s:4:\"slug\";s:10:\"buddypress\";s:5:\"count\";i:781;}s:6:\"search\";a:3:{s:4:\"name\";s:6:\"search\";s:4:\"slug\";s:6:\"search\";s:5:\"count\";i:778;}s:15:\"payment-gateway\";a:3:{s:4:\"name\";s:15:\"payment gateway\";s:4:\"slug\";s:15:\"payment-gateway\";s:5:\"count\";i:770;}s:6:\"editor\";a:3:{s:4:\"name\";s:6:\"editor\";s:4:\"slug\";s:6:\"editor\";s:5:\"count\";i:766;}s:9:\"elementor\";a:3:{s:4:\"name\";s:9:\"elementor\";s:4:\"slug\";s:9:\"elementor\";s:5:\"count\";i:739;}s:3:\"rss\";a:3:{s:4:\"name\";s:3:\"rss\";s:4:\"slug\";s:3:\"rss\";s:5:\"count\";i:732;}s:5:\"pages\";a:3:{s:4:\"name\";s:5:\"pages\";s:4:\"slug\";s:5:\"pages\";s:5:\"count\";i:729;}s:12:\"contact-form\";a:3:{s:4:\"name\";s:12:\"contact form\";s:4:\"slug\";s:12:\"contact-form\";s:5:\"count\";i:728;}s:4:\"menu\";a:3:{s:4:\"name\";s:4:\"menu\";s:4:\"slug\";s:4:\"menu\";s:5:\"count\";i:724;}s:5:\"embed\";a:3:{s:4:\"name\";s:5:\"embed\";s:4:\"slug\";s:5:\"embed\";s:5:\"count\";i:688;}s:4:\"feed\";a:3:{s:4:\"name\";s:4:\"feed\";s:4:\"slug\";s:4:\"feed\";s:5:\"count\";i:686;}s:8:\"category\";a:3:{s:4:\"name\";s:8:\"category\";s:4:\"slug\";s:8:\"category\";s:5:\"count\";i:685;}s:4:\"ajax\";a:3:{s:4:\"name\";s:4:\"ajax\";s:4:\"slug\";s:4:\"ajax\";s:5:\"count\";i:675;}s:6:\"jquery\";a:3:{s:4:\"name\";s:6:\"jquery\";s:4:\"slug\";s:6:\"jquery\";s:5:\"count\";i:666;}s:7:\"youtube\";a:3:{s:4:\"name\";s:7:\"youtube\";s:4:\"slug\";s:7:\"youtube\";s:5:\"count\";i:633;}s:3:\"css\";a:3:{s:4:\"name\";s:3:\"css\";s:4:\"slug\";s:3:\"css\";s:5:\"count\";i:622;}s:9:\"affiliate\";a:3:{s:4:\"name\";s:9:\"affiliate\";s:4:\"slug\";s:9:\"affiliate\";s:5:\"count\";i:617;}s:3:\"api\";a:3:{s:4:\"name\";s:3:\"api\";s:4:\"slug\";s:3:\"api\";s:5:\"count\";i:611;}s:4:\"link\";a:3:{s:4:\"name\";s:4:\"link\";s:4:\"slug\";s:4:\"link\";s:5:\"count\";i:608;}s:10:\"javascript\";a:3:{s:4:\"name\";s:10:\"javascript\";s:4:\"slug\";s:10:\"javascript\";s:5:\"count\";i:607;}s:7:\"contact\";a:3:{s:4:\"name\";s:7:\"contact\";s:4:\"slug\";s:7:\"contact\";s:5:\"count\";i:600;}s:9:\"dashboard\";a:3:{s:4:\"name\";s:9:\"dashboard\";s:4:\"slug\";s:9:\"dashboard\";s:5:\"count\";i:593;}s:5:\"share\";a:3:{s:4:\"name\";s:5:\"share\";s:4:\"slug\";s:5:\"share\";s:5:\"count\";i:592;}s:10:\"responsive\";a:3:{s:4:\"name\";s:10:\"responsive\";s:4:\"slug\";s:10:\"responsive\";s:5:\"count\";i:590;}s:5:\"theme\";a:3:{s:4:\"name\";s:5:\"theme\";s:4:\"slug\";s:5:\"theme\";s:5:\"count\";i:578;}s:3:\"ads\";a:3:{s:4:\"name\";s:3:\"ads\";s:4:\"slug\";s:3:\"ads\";s:5:\"count\";i:570;}s:7:\"comment\";a:3:{s:4:\"name\";s:7:\"comment\";s:4:\"slug\";s:7:\"comment\";s:5:\"count\";i:568;}s:8:\"shipping\";a:3:{s:4:\"name\";s:8:\"shipping\";s:4:\"slug\";s:8:\"shipping\";s:5:\"count\";i:568;}s:6:\"custom\";a:3:{s:4:\"name\";s:6:\"custom\";s:4:\"slug\";s:6:\"custom\";s:5:\"count\";i:567;}s:4:\"chat\";a:3:{s:4:\"name\";s:4:\"chat\";s:4:\"slug\";s:4:\"chat\";s:5:\"count\";i:558;}s:9:\"marketing\";a:3:{s:4:\"name\";s:9:\"marketing\";s:4:\"slug\";s:9:\"marketing\";s:5:\"count\";i:554;}s:6:\"events\";a:3:{s:4:\"name\";s:6:\"events\";s:4:\"slug\";s:6:\"events\";s:5:\"count\";i:542;}s:10:\"categories\";a:3:{s:4:\"name\";s:10:\"categories\";s:4:\"slug\";s:10:\"categories\";s:5:\"count\";i:540;}s:14:\"contact-form-7\";a:3:{s:4:\"name\";s:14:\"contact form 7\";s:4:\"slug\";s:14:\"contact-form-7\";s:5:\"count\";i:533;}s:4:\"user\";a:3:{s:4:\"name\";s:4:\"user\";s:4:\"slug\";s:4:\"user\";s:5:\"count\";i:531;}s:6:\"button\";a:3:{s:4:\"name\";s:6:\"button\";s:4:\"slug\";s:6:\"button\";s:5:\"count\";i:530;}s:5:\"forms\";a:3:{s:4:\"name\";s:5:\"forms\";s:4:\"slug\";s:5:\"forms\";s:5:\"count\";i:527;}s:5:\"popup\";a:3:{s:4:\"name\";s:5:\"popup\";s:4:\"slug\";s:5:\"popup\";s:5:\"count\";i:518;}s:5:\"users\";a:3:{s:4:\"name\";s:5:\"users\";s:4:\"slug\";s:5:\"users\";s:5:\"count\";i:512;}s:6:\"mobile\";a:3:{s:4:\"name\";s:6:\"mobile\";s:4:\"slug\";s:6:\"mobile\";s:5:\"count\";i:510;}s:4:\"tags\";a:3:{s:4:\"name\";s:4:\"tags\";s:4:\"slug\";s:4:\"tags\";s:5:\"count\";i:508;}s:8:\"calendar\";a:3:{s:4:\"name\";s:8:\"calendar\";s:4:\"slug\";s:8:\"calendar\";s:5:\"count\";i:506;}s:11:\"performance\";a:3:{s:4:\"name\";s:11:\"performance\";s:4:\"slug\";s:11:\"performance\";s:5:\"count\";i:486;}s:6:\"blocks\";a:3:{s:4:\"name\";s:6:\"blocks\";s:4:\"slug\";s:6:\"blocks\";s:5:\"count\";i:477;}s:10:\"newsletter\";a:3:{s:4:\"name\";s:10:\"newsletter\";s:4:\"slug\";s:10:\"newsletter\";s:5:\"count\";i:476;}s:10:\"navigation\";a:3:{s:4:\"name\";s:10:\"navigation\";s:4:\"slug\";s:10:\"navigation\";s:5:\"count\";i:466;}s:9:\"slideshow\";a:3:{s:4:\"name\";s:9:\"slideshow\";s:4:\"slug\";s:9:\"slideshow\";s:5:\"count\";i:449;}s:5:\"photo\";a:3:{s:4:\"name\";s:5:\"photo\";s:4:\"slug\";s:5:\"photo\";s:5:\"count\";i:448;}s:5:\"stats\";a:3:{s:4:\"name\";s:5:\"stats\";s:4:\"slug\";s:5:\"stats\";s:5:\"count\";i:448;}s:10:\"statistics\";a:3:{s:4:\"name\";s:10:\"statistics\";s:4:\"slug\";s:10:\"statistics\";s:5:\"count\";i:437;}s:12:\"social-media\";a:3:{s:4:\"name\";s:12:\"social media\";s:4:\"slug\";s:12:\"social-media\";s:5:\"count\";i:433;}s:6:\"photos\";a:3:{s:4:\"name\";s:6:\"photos\";s:4:\"slug\";s:6:\"photos\";s:5:\"count\";i:426;}s:8:\"redirect\";a:3:{s:4:\"name\";s:8:\"redirect\";s:4:\"slug\";s:8:\"redirect\";s:5:\"count\";i:426;}s:12:\"notification\";a:3:{s:4:\"name\";s:12:\"notification\";s:4:\"slug\";s:12:\"notification\";s:5:\"count\";i:425;}s:7:\"gateway\";a:3:{s:4:\"name\";s:7:\"gateway\";s:4:\"slug\";s:7:\"gateway\";s:5:\"count\";i:422;}s:8:\"tracking\";a:3:{s:4:\"name\";s:8:\"tracking\";s:4:\"slug\";s:8:\"tracking\";s:5:\"count\";i:421;}s:6:\"import\";a:3:{s:4:\"name\";s:6:\"import\";s:4:\"slug\";s:6:\"import\";s:5:\"count\";i:420;}s:4:\"news\";a:3:{s:4:\"name\";s:4:\"news\";s:4:\"slug\";s:4:\"news\";s:5:\"count\";i:420;}s:8:\"payments\";a:3:{s:4:\"name\";s:8:\"payments\";s:4:\"slug\";s:8:\"payments\";s:5:\"count\";i:418;}s:10:\"shortcodes\";a:3:{s:4:\"name\";s:10:\"shortcodes\";s:4:\"slug\";s:10:\"shortcodes\";s:5:\"count\";i:412;}s:4:\"code\";a:3:{s:4:\"name\";s:4:\"code\";s:4:\"slug\";s:4:\"code\";s:5:\"count\";i:406;}s:7:\"plugins\";a:3:{s:4:\"name\";s:7:\"plugins\";s:4:\"slug\";s:7:\"plugins\";s:5:\"count\";i:398;}s:5:\"cache\";a:3:{s:4:\"name\";s:5:\"cache\";s:4:\"slug\";s:5:\"cache\";s:5:\"count\";i:396;}s:9:\"multisite\";a:3:{s:4:\"name\";s:9:\"multisite\";s:4:\"slug\";s:9:\"multisite\";s:5:\"count\";i:395;}s:8:\"checkout\";a:3:{s:4:\"name\";s:8:\"checkout\";s:4:\"slug\";s:8:\"checkout\";s:5:\"count\";i:393;}s:4:\"meta\";a:3:{s:4:\"name\";s:4:\"meta\";s:4:\"slug\";s:4:\"meta\";s:5:\"count\";i:390;}}', 'no'),
@@ -1338,7 +1343,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (4142, '_transient__woocommerce_helper_updates', 'a:4:{s:4:\"hash\";s:32:\"d751713988987e9331980363e24189ce\";s:7:\"updated\";i:1684298316;s:8:\"products\";a:0:{}s:6:\"errors\";a:1:{i:0;s:10:\"http-error\";}}', 'no'),
 (4146, '_transient_timeout_loco_po_5f89f4a1b28d76a9c25e34a6b0daf33c', '1685162380', 'no'),
 (4147, '_transient_loco_po_5f89f4a1b28d76a9c25e34a6b0daf33c', 'a:4:{s:1:\"c\";s:21:\"Loco_gettext_Metadata\";s:1:\"v\";i:0;s:1:\"d\";a:5:{s:5:\"rpath\";s:50:\"plugins/woocommerce/i18n/languages/woocommerce.pot\";s:5:\"bytes\";i:1616748;s:5:\"mtime\";i:1684206538;s:5:\"valid\";b:1;s:5:\"stats\";a:3:{s:1:\"t\";i:10320;s:1:\"p\";i:0;s:1:\"f\";i:0;}}s:1:\"t\";i:1684298380;}', 'no'),
-(4149, 'loco_recent', 'a:4:{s:1:\"c\";s:21:\"Loco_data_RecentItems\";s:1:\"v\";i:0;s:1:\"d\";a:1:{s:6:\"bundle\";a:1:{s:34:\"plugin.woocommerce/woocommerce.php\";i:1684323724;}}s:1:\"t\";i:1684323724;}', 'no'),
+(4149, 'loco_recent', 'a:4:{s:1:\"c\";s:21:\"Loco_data_RecentItems\";s:1:\"v\";i:0;s:1:\"d\";a:1:{s:6:\"bundle\";a:1:{s:34:\"plugin.woocommerce/woocommerce.php\";i:1684324315;}}s:1:\"t\";i:1684324315;}', 'no'),
 (4155, '_site_transient_update_plugins', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1684310446;s:8:\"response\";a:0:{}s:12:\"translations\";a:3:{i:0;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:11:\"woocommerce\";s:8:\"language\";s:2:\"vi\";s:7:\"version\";s:5:\"7.7.0\";s:7:\"updated\";s:19:\"2023-03-10 01:22:30\";s:7:\"package\";s:75:\"https://downloads.wordpress.org/translation/plugin/woocommerce/7.7.0/vi.zip\";s:10:\"autoupdate\";b:1;}i:1;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:8:\"woo-viet\";s:8:\"language\";s:2:\"vi\";s:7:\"version\";s:5:\"1.5.2\";s:7:\"updated\";s:19:\"2020-09-11 15:12:01\";s:7:\"package\";s:72:\"https://downloads.wordpress.org/translation/plugin/woo-viet/1.5.2/vi.zip\";s:10:\"autoupdate\";b:1;}i:2;a:7:{s:4:\"type\";s:6:\"plugin\";s:4:\"slug\";s:13:\"wordpress-seo\";s:8:\"language\";s:2:\"vi\";s:7:\"version\";s:4:\"20.7\";s:7:\"updated\";s:19:\"2023-03-14 09:20:56\";s:7:\"package\";s:76:\"https://downloads.wordpress.org/translation/plugin/wordpress-seo/20.7/vi.zip\";s:10:\"autoupdate\";b:1;}}s:9:\"no_update\";a:8:{s:28:\"laravel-dd/wp-laravel-dd.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:24:\"w.org/plugins/laravel-dd\";s:4:\"slug\";s:10:\"laravel-dd\";s:6:\"plugin\";s:28:\"laravel-dd/wp-laravel-dd.php\";s:11:\"new_version\";s:5:\"1.0.1\";s:3:\"url\";s:41:\"https://wordpress.org/plugins/laravel-dd/\";s:7:\"package\";s:53:\"https://downloads.wordpress.org/plugin/laravel-dd.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:63:\"https://ps.w.org/laravel-dd/assets/icon-256x256.png?rev=1832586\";s:2:\"1x\";s:63:\"https://ps.w.org/laravel-dd/assets/icon-128x128.png?rev=1832586\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:66:\"https://ps.w.org/laravel-dd/assets/banner-1544x500.png?rev=1832586\";s:2:\"1x\";s:65:\"https://ps.w.org/laravel-dd/assets/banner-772x250.png?rev=1832586\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:5:\"3.0.1\";}s:23:\"loco-translate/loco.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:28:\"w.org/plugins/loco-translate\";s:4:\"slug\";s:14:\"loco-translate\";s:6:\"plugin\";s:23:\"loco-translate/loco.php\";s:11:\"new_version\";s:5:\"2.6.4\";s:3:\"url\";s:45:\"https://wordpress.org/plugins/loco-translate/\";s:7:\"package\";s:63:\"https://downloads.wordpress.org/plugin/loco-translate.2.6.4.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:67:\"https://ps.w.org/loco-translate/assets/icon-256x256.png?rev=1000676\";s:2:\"1x\";s:67:\"https://ps.w.org/loco-translate/assets/icon-128x128.png?rev=1000676\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:68:\"https://ps.w.org/loco-translate/assets/banner-772x250.jpg?rev=745046\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"5.2\";}s:49:\"woo-variation-swatches/woo-variation-swatches.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:36:\"w.org/plugins/woo-variation-swatches\";s:4:\"slug\";s:22:\"woo-variation-swatches\";s:6:\"plugin\";s:49:\"woo-variation-swatches/woo-variation-swatches.php\";s:11:\"new_version\";s:6:\"2.0.20\";s:3:\"url\";s:53:\"https://wordpress.org/plugins/woo-variation-swatches/\";s:7:\"package\";s:72:\"https://downloads.wordpress.org/plugin/woo-variation-swatches.2.0.20.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:75:\"https://ps.w.org/woo-variation-swatches/assets/icon-256x256.gif?rev=2741308\";s:2:\"1x\";s:75:\"https://ps.w.org/woo-variation-swatches/assets/icon-128x128.gif?rev=2741177\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:78:\"https://ps.w.org/woo-variation-swatches/assets/banner-1544x500.gif?rev=2741177\";s:2:\"1x\";s:77:\"https://ps.w.org/woo-variation-swatches/assets/banner-772x250.gif?rev=2741177\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"5.6\";}s:27:\"woocommerce/woocommerce.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:25:\"w.org/plugins/woocommerce\";s:4:\"slug\";s:11:\"woocommerce\";s:6:\"plugin\";s:27:\"woocommerce/woocommerce.php\";s:11:\"new_version\";s:5:\"7.7.0\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/woocommerce/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/plugin/woocommerce.7.7.0.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:64:\"https://ps.w.org/woocommerce/assets/icon-256x256.gif?rev=2869506\";s:2:\"1x\";s:64:\"https://ps.w.org/woocommerce/assets/icon-128x128.gif?rev=2869506\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:67:\"https://ps.w.org/woocommerce/assets/banner-1544x500.png?rev=2366418\";s:2:\"1x\";s:66:\"https://ps.w.org/woocommerce/assets/banner-772x250.png?rev=2366418\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"6.0\";}s:21:\"woo-viet/woo-viet.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:22:\"w.org/plugins/woo-viet\";s:4:\"slug\";s:8:\"woo-viet\";s:6:\"plugin\";s:21:\"woo-viet/woo-viet.php\";s:11:\"new_version\";s:5:\"1.5.2\";s:3:\"url\";s:39:\"https://wordpress.org/plugins/woo-viet/\";s:7:\"package\";s:57:\"https://downloads.wordpress.org/plugin/woo-viet.1.5.2.zip\";s:5:\"icons\";a:1:{s:2:\"1x\";s:61:\"https://ps.w.org/woo-viet/assets/icon-128x128.png?rev=2608307\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:63:\"https://ps.w.org/woo-viet/assets/banner-772x250.png?rev=2608307\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"4.3\";}s:27:\"wp-super-cache/wp-cache.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:28:\"w.org/plugins/wp-super-cache\";s:4:\"slug\";s:14:\"wp-super-cache\";s:6:\"plugin\";s:27:\"wp-super-cache/wp-cache.php\";s:11:\"new_version\";s:5:\"1.9.4\";s:3:\"url\";s:45:\"https://wordpress.org/plugins/wp-super-cache/\";s:7:\"package\";s:63:\"https://downloads.wordpress.org/plugin/wp-super-cache.1.9.4.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:67:\"https://ps.w.org/wp-super-cache/assets/icon-256x256.png?rev=1095422\";s:2:\"1x\";s:67:\"https://ps.w.org/wp-super-cache/assets/icon-128x128.png?rev=1095422\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:70:\"https://ps.w.org/wp-super-cache/assets/banner-1544x500.png?rev=1082414\";s:2:\"1x\";s:69:\"https://ps.w.org/wp-super-cache/assets/banner-772x250.png?rev=1082414\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"5.9\";}s:34:\"yith-woocommerce-wishlist/init.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:39:\"w.org/plugins/yith-woocommerce-wishlist\";s:4:\"slug\";s:25:\"yith-woocommerce-wishlist\";s:6:\"plugin\";s:34:\"yith-woocommerce-wishlist/init.php\";s:11:\"new_version\";s:6:\"3.21.0\";s:3:\"url\";s:56:\"https://wordpress.org/plugins/yith-woocommerce-wishlist/\";s:7:\"package\";s:75:\"https://downloads.wordpress.org/plugin/yith-woocommerce-wishlist.3.21.0.zip\";s:5:\"icons\";a:1:{s:2:\"1x\";s:78:\"https://ps.w.org/yith-woocommerce-wishlist/assets/icon-128x128.jpg?rev=2215573\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:81:\"https://ps.w.org/yith-woocommerce-wishlist/assets/banner-1544x500.jpg?rev=2209192\";s:2:\"1x\";s:80:\"https://ps.w.org/yith-woocommerce-wishlist/assets/banner-772x250.jpg?rev=2209192\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"6.0\";}s:24:\"wordpress-seo/wp-seo.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:27:\"w.org/plugins/wordpress-seo\";s:4:\"slug\";s:13:\"wordpress-seo\";s:6:\"plugin\";s:24:\"wordpress-seo/wp-seo.php\";s:11:\"new_version\";s:4:\"20.7\";s:3:\"url\";s:44:\"https://wordpress.org/plugins/wordpress-seo/\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/plugin/wordpress-seo.20.7.zip\";s:5:\"icons\";a:2:{s:2:\"1x\";s:58:\"https://ps.w.org/wordpress-seo/assets/icon.svg?rev=2363699\";s:3:\"svg\";s:58:\"https://ps.w.org/wordpress-seo/assets/icon.svg?rev=2363699\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:69:\"https://ps.w.org/wordpress-seo/assets/banner-1544x500.png?rev=2643727\";s:2:\"1x\";s:68:\"https://ps.w.org/wordpress-seo/assets/banner-772x250.png?rev=2643727\";}s:11:\"banners_rtl\";a:2:{s:2:\"2x\";s:73:\"https://ps.w.org/wordpress-seo/assets/banner-1544x500-rtl.png?rev=2643727\";s:2:\"1x\";s:72:\"https://ps.w.org/wordpress-seo/assets/banner-772x250-rtl.png?rev=2643727\";}s:8:\"requires\";s:3:\"6.1\";}}s:7:\"checked\";a:10:{s:48:\"woocommerce-ajax-filters/woocommerce-filters.php\";s:7:\"1.6.4.1\";s:28:\"laravel-dd/wp-laravel-dd.php\";s:5:\"1.0.1\";s:23:\"loco-translate/loco.php\";s:5:\"2.6.4\";s:49:\"woo-variation-swatches/woo-variation-swatches.php\";s:6:\"2.0.20\";s:27:\"woocommerce/woocommerce.php\";s:5:\"7.7.0\";s:21:\"woo-viet/woo-viet.php\";s:5:\"1.5.2\";s:27:\"wp-super-cache/wp-cache.php\";s:5:\"1.9.4\";s:25:\"wp-sync-db/wp-sync-db.php\";s:3:\"1.5\";s:34:\"yith-woocommerce-wishlist/init.php\";s:6:\"3.21.0\";s:24:\"wordpress-seo/wp-seo.php\";s:4:\"20.7\";}}', 'no'),
 (4156, '_site_transient_update_themes', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1684298968;s:7:\"checked\";a:2:{s:5:\"blank\";s:0:\"\";s:9:\"myfashion\";s:0:\"\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
 (4158, '_transient_timeout_wc_marketing_knowledge_base_coupons', '1684384989', 'no'),
@@ -1397,7 +1402,6 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (4420, '_transient_timeout_wc_order_102_needs_processing', '1684396466', 'no'),
 (4421, '_transient_wc_order_102_needs_processing', '1', 'no'),
-(4422, '_transient_wc_count_comments', 'O:8:\"stdClass\":7:{s:14:\"total_comments\";i:1;s:3:\"all\";i:1;s:8:\"approved\";s:1:\"1\";s:9:\"moderated\";i:0;s:4:\"spam\";i:0;s:5:\"trash\";i:0;s:12:\"post-trashed\";i:0;}', 'yes'),
 (4430, '_site_transient_timeout_theme_roots', '1684312246', 'no'),
 (4431, '_site_transient_theme_roots', 'a:2:{s:5:\"blank\";s:7:\"/themes\";s:9:\"myfashion\";s:7:\"/themes\";}', 'no'),
 (4432, 'wpsdb_settings', 'a:7:{s:11:\"max_request\";i:1048576;s:3:\"key\";s:32:\"q2RbqKIKtkv0lXi/qusisbdDRy5TB1uo\";s:10:\"allow_pull\";b:0;s:10:\"allow_push\";b:0;s:8:\"profiles\";a:0:{}s:10:\"verify_ssl\";b:0;s:17:\"blacklist_plugins\";a:0:{}}', 'yes'),
@@ -1416,7 +1420,12 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (4492, '_transient_timeout_wc_related_24', '1684408705', 'no'),
 (4493, '_transient_wc_related_24', 'a:1:{s:50:\"limit=4&exclude_ids%5B0%5D=0&exclude_ids%5B1%5D=24\";a:4:{i:0;s:2:\"14\";i:1;s:2:\"17\";i:2;s:2:\"25\";i:3;s:2:\"34\";}}', 'no'),
 (4496, '_transient_timeout_wc_term_counts', '1686915238', 'no'),
-(4497, '_transient_wc_term_counts', 'a:7:{i:17;s:1:\"5\";i:19;s:1:\"5\";i:16;s:2:\"14\";i:21;s:1:\"1\";i:18;s:1:\"3\";i:20;s:1:\"2\";i:15;s:1:\"0\";}', 'no');
+(4497, '_transient_wc_term_counts', 'a:7:{i:17;s:1:\"5\";i:19;s:1:\"5\";i:16;s:2:\"14\";i:21;s:1:\"1\";i:18;s:1:\"3\";i:20;s:1:\"2\";i:15;s:1:\"0\";}', 'no'),
+(4536, '_transient_timeout_wc_customer_bought_product_c4ca4238a0b923820dcc509a6f75849b', '1686917098', 'no'),
+(4537, '_transient_wc_customer_bought_product_c4ca4238a0b923820dcc509a6f75849b', 'a:2:{s:7:\"version\";s:10:\"1684310069\";s:5:\"value\";a:2:{i:0;i:17;i:1;i:17;}}', 'no'),
+(4540, '_transient_timeout_wc_order_103_needs_processing', '1684411613', 'no'),
+(4541, '_transient_wc_order_103_needs_processing', '1', 'no'),
+(4542, '_transient_wc_count_comments', 'O:8:\"stdClass\":7:{s:14:\"total_comments\";i:1;s:3:\"all\";i:1;s:8:\"approved\";s:1:\"1\";s:9:\"moderated\";i:0;s:4:\"spam\";i:0;s:5:\"trash\";i:0;s:12:\"post-trashed\";i:0;}', 'yes');
 
 -- --------------------------------------------------------
 
@@ -1537,7 +1546,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (107, 19, '_wc_review_count', '0'),
 (108, 19, '_product_version', '7.6.1'),
 (110, 20, '_sku', 'woo-cap'),
-(111, 20, 'total_sales', '3'),
+(111, 20, 'total_sales', '4'),
 (112, 20, '_tax_status', 'taxable'),
 (113, 20, '_tax_class', ''),
 (114, 20, '_manage_stock', 'no'),
@@ -1585,7 +1594,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (158, 22, '_wc_review_count', '0'),
 (159, 22, '_product_version', '7.6.1'),
 (161, 23, '_sku', 'woo-hoodie-with-zipper'),
-(162, 23, 'total_sales', '1'),
+(162, 23, 'total_sales', '3'),
 (163, 23, '_tax_status', 'taxable'),
 (164, 23, '_tax_class', ''),
 (165, 23, '_manage_stock', 'no'),
@@ -1601,7 +1610,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (175, 23, '_wc_review_count', '0'),
 (176, 23, '_product_version', '7.6.1'),
 (178, 24, '_sku', 'woo-long-sleeve-tee'),
-(179, 24, 'total_sales', '2'),
+(179, 24, 'total_sales', '3'),
 (180, 24, '_tax_status', 'taxable'),
 (181, 24, '_tax_class', ''),
 (182, 24, '_manage_stock', 'no'),
@@ -1617,7 +1626,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (192, 24, '_wc_review_count', '1'),
 (193, 24, '_product_version', '7.6.1'),
 (195, 25, '_sku', 'woo-polo'),
-(196, 25, 'total_sales', '2'),
+(196, 25, 'total_sales', '7'),
 (197, 25, '_tax_status', 'taxable'),
 (198, 25, '_tax_class', ''),
 (199, 25, '_manage_stock', 'no'),
@@ -1777,7 +1786,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (362, 34, '_wc_review_count', '0'),
 (363, 34, '_product_version', '7.6.1'),
 (365, 35, '_sku', 'Woo-beanie-logo'),
-(366, 35, 'total_sales', '7'),
+(366, 35, 'total_sales', '8'),
 (367, 35, '_tax_status', 'taxable'),
 (368, 35, '_tax_class', ''),
 (369, 35, '_manage_stock', 'no'),
@@ -2484,7 +2493,46 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1083, 102, '_prices_include_tax', 'no'),
 (1084, 102, '_billing_address_index', 'a b  c  Quận 3 HO-CHI-MINH  VN nobmtpro2025@gmail.com 0122999333'),
 (1085, 102, '_shipping_address_index', 'a b  c  Quận 3 HO-CHI-MINH  VN '),
-(1086, 102, 'is_vat_exempt', 'no');
+(1086, 102, 'is_vat_exempt', 'no'),
+(1087, 103, '_order_key', 'wc_order_ohGAaksTqYOOh'),
+(1088, 103, '_customer_user', '1'),
+(1089, 103, '_payment_method', 'bacs'),
+(1090, 103, '_payment_method_title', 'Chuyển khoản ngân hàng'),
+(1091, 103, '_customer_ip_address', '::1'),
+(1092, 103, '_customer_user_agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'),
+(1093, 103, '_created_via', 'checkout'),
+(1094, 103, '_cart_hash', '77457c10414c423e2d8af77517cb6bc7'),
+(1095, 103, '_download_permissions_granted', 'no'),
+(1096, 103, '_recorded_sales', 'yes'),
+(1097, 103, '_recorded_coupon_usage_counts', 'yes'),
+(1098, 103, '_new_order_email_sent', 'true'),
+(1099, 103, '_order_stock_reduced', 'yes'),
+(1100, 103, '_billing_first_name', 'a'),
+(1101, 103, '_billing_last_name', 'b'),
+(1102, 103, '_billing_address_1', 'c'),
+(1103, 103, '_billing_city', 'Quận 3'),
+(1104, 103, '_billing_state', 'HO-CHI-MINH'),
+(1105, 103, '_billing_country', 'VN'),
+(1106, 103, '_billing_email', 'nobmtpro2025@gmail.com'),
+(1107, 103, '_billing_phone', '0122999333'),
+(1108, 103, '_shipping_first_name', 'a'),
+(1109, 103, '_shipping_last_name', 'b'),
+(1110, 103, '_shipping_address_1', 'c'),
+(1111, 103, '_shipping_city', 'Quận 3'),
+(1112, 103, '_shipping_state', 'HO-CHI-MINH'),
+(1113, 103, '_shipping_country', 'VN'),
+(1114, 103, '_order_currency', 'VND'),
+(1115, 103, '_cart_discount', '0'),
+(1116, 103, '_cart_discount_tax', '0'),
+(1117, 103, '_order_shipping', '10'),
+(1118, 103, '_order_shipping_tax', '0'),
+(1119, 103, '_order_tax', '0'),
+(1120, 103, '_order_total', '259'),
+(1121, 103, '_order_version', '7.7.0'),
+(1122, 103, '_prices_include_tax', 'no'),
+(1123, 103, '_billing_address_index', 'a b  c  Quận 3 HO-CHI-MINH  VN nobmtpro2025@gmail.com 0122999333'),
+(1124, 103, '_shipping_address_index', 'a b  c  Quận 3 HO-CHI-MINH  VN '),
+(1125, 103, 'is_vat_exempt', 'no');
 
 -- --------------------------------------------------------
 
@@ -2619,7 +2667,8 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (99, 1, '2023-05-17 02:47:06', '2023-05-17 02:47:06', '', 'Order &ndash; May 17, 2023 @ 02:47 AM', '', 'wc-on-hold', 'open', 'closed', 'wc_order_jSKVSNAAPJiLE', 'order-may-17-2023-0247-am', '', '', '2023-05-17 02:47:06', '2023-05-17 02:47:06', '', 0, 'http://localhost/woo2/?post_type=shop_order&#038;p=99', 0, 'shop_order', '', 1),
 (100, 1, '2023-05-17 06:40:35', '2023-05-17 06:40:35', '', 'Order &ndash; Tháng Năm 17, 2023 @ 06:40 Sáng', '', 'wc-on-hold', 'open', 'closed', 'wc_order_XRsKRfuINdTz8', 'order-may-17-2023-0640-am', '', '', '2023-05-17 06:40:35', '2023-05-17 06:40:35', '', 0, 'http://localhost/woo2/?post_type=shop_order&#038;p=100', 0, 'shop_order', '', 1),
 (101, 1, '2023-05-17 07:47:52', '2023-05-17 07:47:52', '<!-- wp:paragraph -->\r\n<h4 class=\"title toggle\">HỖ TRỢ KHÁCH HÀNG MUA ONLINE</h4>\r\n<div class=\"box-toggle\">\r\n<p>Hotline: 1800 1100</p>\r\n<p>Giờ làm việc: 9-17h thứ 2 - 6</p>\r\n<p>Email: info@onoff.vn</p>\r\n<p>Địa chỉ: 121 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội</p>\r\n</div>\r\n<h4 class=\"title toggle\">VĂN PHÒNG HÀ NỘI</h4>\r\n<div class=\"box-toggle\">\r\n<p>Điện thoại: +8424 73082005</p>\r\n<p>Fax: +8424 6251 2868</p>\r\n<p>Email: onoff@onoff.vn</p>\r\n<p>Địa chỉ: 121 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội</p>\r\n</div>\r\n<h4 class=\"title toggle\">LIÊN HỆ LÀM NHÀ PHÂN PHỐI VÀ ĐẠI LÝ</h4>\r\n<h5 class=\"title toggle\">MIỀN BẮC</h5>\r\n<div class=\"box-toggle\">\r\n<p>Mr Nguyễn Khánh Mạnh</p>\r\n<p>Điện thoại: 0886.802.288</p>\r\n<p>Email: manhnk@canifa.com</p>\r\n</div>\r\n<h5 class=\"title toggle\">MIỀN NAM</h5>\r\n<div class=\"box-toggle\">\r\n<p>Mr Vũ Việt Dũng</p>\r\n<p>Điện Thoại: 0902.060.515</p>\r\n<p>Email: dung.vv@onoff.vn</p>\r\n</div>\r\n<h4 class=\"title toggle\">NHÀ MÁY</h4>\r\n<div class=\"box-toggle\">\r\n<p>Đường Nguyễn Văn Linh, Phường Bần Yên Nhân, T.X Mỹ Hào, Hưng Yên</p>\r\n<p>Điện thoại: +84-221-394 2234</p>\r\n<p>Fax: +84-221-394 2235</p>\r\n</div>\r\n<!-- /wp:paragraph -->', 'Liên hệ', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2023-05-17 07:47:52', '2023-05-17 07:47:52', '', 2, 'http://localhost/woo2/?p=101', 0, 'revision', '', 0),
-(102, 1, '2023-05-17 07:54:26', '2023-05-17 07:54:26', '', 'Order &ndash; Tháng Năm 17, 2023 @ 07:54 Sáng', '', 'wc-on-hold', 'open', 'closed', 'wc_order_wzTOK3uCquap9', 'order-may-17-2023-0754-am', '', '', '2023-05-17 07:54:26', '2023-05-17 07:54:26', '', 0, 'http://localhost/woo2/?post_type=shop_order&#038;p=102', 0, 'shop_order', '', 1);
+(102, 1, '2023-05-17 07:54:26', '2023-05-17 07:54:26', '', 'Order &ndash; Tháng Năm 17, 2023 @ 07:54 Sáng', '', 'wc-on-hold', 'open', 'closed', 'wc_order_wzTOK3uCquap9', 'order-may-17-2023-0754-am', '', '', '2023-05-17 07:54:26', '2023-05-17 07:54:26', '', 0, 'http://localhost/woo2/?post_type=shop_order&#038;p=102', 0, 'shop_order', '', 1),
+(103, 1, '2023-05-17 12:06:53', '2023-05-17 12:06:53', '', 'Order &ndash; Tháng Năm 17, 2023 @ 12:06 Chiều', '', 'wc-on-hold', 'open', 'closed', 'wc_order_ohGAaksTqYOOh', 'order-may-17-2023-1206-pm', '', '', '2023-05-17 12:06:53', '2023-05-17 12:06:53', '', 0, 'http://localhost/woo2/?post_type=shop_order&#038;p=103', 0, 'shop_order', '', 1);
 
 -- --------------------------------------------------------
 
@@ -2915,7 +2964,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (35, 1, '_yoast_settings_introduction', 'a:2:{s:23:\"wistia_embed_permission\";b:0;s:4:\"show\";b:0;}'),
 (36, 1, 'screen_layout_product', '2'),
 (38, 1, 'closedpostboxes_nav-menus', 'a:0:{}'),
-(39, 1, 'last_update', '1684310066'),
+(39, 1, 'last_update', '1684325213'),
 (40, 1, 'woocommerce_admin_task_list_tracked_started_tasks', '{\"payments\":1,\"tax\":1,\"marketing\":1,\"appearance\":1}'),
 (41, 1, 'billing_first_name', 'a'),
 (42, 1, 'billing_last_name', 'b'),
@@ -2981,8 +3030,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (113, 3, 'last_update', '1684253103'),
 (115, 3, 'wc_last_active', '1684281600'),
 (118, 3, '_woocommerce_persistent_cart_1', 'a:1:{s:4:\"cart\";a:2:{s:32:\"e369853df766fa44e1ed0ff613f563bd\";a:11:{s:3:\"key\";s:32:\"e369853df766fa44e1ed0ff613f563bd\";s:10:\"product_id\";i:34;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:2;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:36;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:36;s:8:\"line_tax\";d:0;}s:32:\"98f13708210194c475687be6106a3b84\";a:6:{s:3:\"key\";s:32:\"98f13708210194c475687be6106a3b84\";s:10:\"product_id\";i:20;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";}}}'),
-(119, 1, 'session_tokens', 'a:1:{s:64:\"834b0192aa9aa319ed6d0e057947b03ee004d600cd59e63084f05d5af2ce444b\";a:4:{s:10:\"expiration\";i:1685500596;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:111:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\";s:5:\"login\";i:1684290996;}}'),
-(123, 1, '_woocommerce_persistent_cart_1', 'a:1:{s:4:\"cart\";a:3:{s:32:\"1c383cd30b7c298ab50293adfecb7b18\";a:11:{s:3:\"key\";s:32:\"1c383cd30b7c298ab50293adfecb7b18\";s:10:\"product_id\";i:35;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:18;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:18;s:8:\"line_tax\";d:0;}s:32:\"8e296a067a37563370ded05f5a3bf3ec\";a:11:{s:3:\"key\";s:32:\"8e296a067a37563370ded05f5a3bf3ec\";s:10:\"product_id\";i:25;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:3;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:60;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:60;s:8:\"line_tax\";d:0;}s:32:\"1ff1de774005f8da13f42943881c655f\";a:11:{s:3:\"key\";s:32:\"1ff1de774005f8da13f42943881c655f\";s:10:\"product_id\";i:24;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:25;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:25;s:8:\"line_tax\";d:0;}}}');
+(119, 1, 'session_tokens', 'a:1:{s:64:\"834b0192aa9aa319ed6d0e057947b03ee004d600cd59e63084f05d5af2ce444b\";a:4:{s:10:\"expiration\";i:1685500596;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:111:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36\";s:5:\"login\";i:1684290996;}}');
 
 -- --------------------------------------------------------
 
@@ -3291,7 +3339,7 @@ CREATE TABLE `wp_wc_customer_lookup` (
 --
 
 INSERT INTO `wp_wc_customer_lookup` (`customer_id`, `user_id`, `username`, `first_name`, `last_name`, `email`, `date_last_active`, `date_registered`, `country`, `postcode`, `city`, `state`) VALUES
-(1, 1, 'admin', 'a', 'b', 'nobmtpro2025@gmail.com', '2023-05-17 00:54:26', '2023-05-04 21:17:36', 'VN', '', 'Quận 3', 'HO-CHI-MINH'),
+(1, 1, 'admin', 'a', 'b', 'nobmtpro2025@gmail.com', '2023-05-17 05:06:53', '2023-05-04 21:17:36', 'VN', '', 'Quận 3', 'HO-CHI-MINH'),
 (2, 2, 'nobmtpro2027', '', '', 'nobmtpro2027@gmail.com', '2023-05-14 17:00:00', '2023-05-14 21:34:16', '', '', '', ''),
 (3, 3, 'nobmtpro1', '', '', 'nobmtpro1@gmail.com', '2023-05-16 17:00:00', '2023-05-16 09:05:03', '', '', '', '');
 
@@ -3371,7 +3419,12 @@ INSERT INTO `wp_wc_order_product_lookup` (`order_item_id`, `order_id`, `product_
 (26, 102, 16, 0, 1, '2023-05-17 07:54:26', 3, 135, 138, 0, 0, 3, 0),
 (27, 102, 19, 0, 1, '2023-05-17 07:54:26', 2, 110, 112, 0, 0, 2, 0),
 (28, 102, 24, 0, 1, '2023-05-17 07:54:26', 2, 50, 52, 0, 0, 2, 0),
-(29, 102, 20, 0, 1, '2023-05-17 07:54:26', 1, 16, 17, 0, 0, 1, 0);
+(29, 102, 20, 0, 1, '2023-05-17 07:54:26', 1, 16, 17, 0, 0, 1, 0),
+(31, 103, 35, 0, 1, '2023-05-17 12:06:53', 1, 18, 19, 0, 0, 1, 0),
+(32, 103, 25, 0, 1, '2023-05-17 12:06:53', 5, 100, 105, 0, 0, 5, 0),
+(33, 103, 24, 0, 1, '2023-05-17 12:06:53', 1, 25, 26, 0, 0, 1, 0),
+(34, 103, 20, 0, 1, '2023-05-17 12:06:53', 1, 16, 17, 0, 0, 1, 0),
+(35, 103, 23, 0, 1, '2023-05-17 12:06:53', 2, 90, 92, 0, 0, 2, 0);
 
 -- --------------------------------------------------------
 
@@ -3407,7 +3460,8 @@ INSERT INTO `wp_wc_order_stats` (`order_id`, `parent_id`, `date_created`, `date_
 (98, 0, '2023-05-15 03:38:23', '2023-05-15 03:38:23', '2023-05-15 03:53:31', '2023-05-15 03:53:31', 1, 28, 0, 10, 18, 1, 'wc-completed', 1),
 (99, 0, '2023-05-17 02:47:06', '2023-05-17 02:47:06', NULL, NULL, 8, 156, 0, 10, 146, 1, 'wc-on-hold', 1),
 (100, 0, '2023-05-17 06:40:35', '2023-05-17 06:40:35', NULL, NULL, 5, 78, 0, 10, 68, 1, 'wc-on-hold', 1),
-(102, 0, '2023-05-17 07:54:26', '2023-05-17 07:54:26', NULL, NULL, 10, 351, 0, 10, 341, 1, 'wc-on-hold', 1);
+(102, 0, '2023-05-17 07:54:26', '2023-05-17 07:54:26', NULL, NULL, 10, 351, 0, 10, 341, 1, 'wc-on-hold', 1),
+(103, 0, '2023-05-17 12:06:53', '2023-05-17 12:06:53', NULL, NULL, 10, 259, 0, 10, 249, 1, 'wc-on-hold', 1);
 
 -- --------------------------------------------------------
 
@@ -3524,12 +3578,12 @@ INSERT INTO `wp_wc_product_meta_lookup` (`product_id`, `sku`, `virtual`, `downlo
 (17, 'woo-tshirt', 0, 0, '18.0000', '18.0000', 0, NULL, 'instock', 0, '0.00', 1, 'taxable', ''),
 (18, 'woo-beanie', 0, 0, '18.0000', '18.0000', 1, NULL, 'instock', 0, '0.00', 9, 'taxable', ''),
 (19, 'woo-belt', 0, 0, '55.0000', '55.0000', 1, NULL, 'instock', 0, '0.00', 2, 'taxable', ''),
-(20, 'woo-cap', 0, 0, '16.0000', '16.0000', 1, NULL, 'instock', 0, '0.00', 3, 'taxable', ''),
+(20, 'woo-cap', 0, 0, '16.0000', '16.0000', 1, NULL, 'instock', 0, '0.00', 4, 'taxable', ''),
 (21, 'woo-sunglasses', 0, 0, '90.0000', '90.0000', 0, NULL, 'instock', 0, '0.00', 0, 'taxable', ''),
 (22, 'woo-hoodie-with-pocket', 0, 0, '35.0000', '35.0000', 1, NULL, 'instock', 0, '0.00', 0, 'taxable', ''),
-(23, 'woo-hoodie-with-zipper', 0, 0, '45.0000', '45.0000', 0, NULL, 'instock', 0, '0.00', 1, 'taxable', ''),
-(24, 'woo-long-sleeve-tee', 0, 0, '25.0000', '25.0000', 0, NULL, 'instock', 1, '3.00', 2, 'taxable', ''),
-(25, 'woo-polo', 0, 0, '20.0000', '20.0000', 0, NULL, 'instock', 0, '0.00', 2, 'taxable', ''),
+(23, 'woo-hoodie-with-zipper', 0, 0, '45.0000', '45.0000', 0, NULL, 'instock', 0, '0.00', 3, 'taxable', ''),
+(24, 'woo-long-sleeve-tee', 0, 0, '25.0000', '25.0000', 0, NULL, 'instock', 1, '3.00', 3, 'taxable', ''),
+(25, 'woo-polo', 0, 0, '20.0000', '20.0000', 0, NULL, 'instock', 0, '0.00', 7, 'taxable', ''),
 (26, 'woo-album', 1, 1, '15.0000', '15.0000', 0, NULL, 'instock', 0, '0.00', 6, 'taxable', ''),
 (27, 'woo-single', 1, 1, '2.0000', '2.0000', 1, NULL, 'instock', 0, '0.00', 2, 'taxable', ''),
 (28, 'woo-vneck-tee-red', 0, 0, '20.0000', '20.0000', 0, NULL, 'instock', 0, '0.00', 0, 'taxable', ''),
@@ -3539,7 +3593,7 @@ INSERT INTO `wp_wc_product_meta_lookup` (`product_id`, `sku`, `virtual`, `downlo
 (32, 'woo-hoodie-green', 0, 0, '45.0000', '45.0000', 0, NULL, 'instock', 0, '0.00', 0, 'taxable', ''),
 (33, 'woo-hoodie-blue', 0, 0, '45.0000', '45.0000', 0, NULL, 'instock', 0, '0.00', 0, 'taxable', ''),
 (34, 'Woo-tshirt-logo', 0, 0, '18.0000', '18.0000', 0, NULL, 'instock', 0, '0.00', 1, 'taxable', ''),
-(35, 'Woo-beanie-logo', 0, 0, '18.0000', '18.0000', 1, NULL, 'instock', 0, '0.00', 7, 'taxable', ''),
+(35, 'Woo-beanie-logo', 0, 0, '18.0000', '18.0000', 1, NULL, 'instock', 0, '0.00', 8, 'taxable', ''),
 (36, 'logo-collection', 0, 0, '18.0000', '45.0000', 0, NULL, 'instock', 0, '0.00', 0, 'taxable', ''),
 (37, 'wp-pennant', 0, 0, '11.0500', '11.0500', 0, NULL, 'instock', 0, '0.00', 0, 'taxable', ''),
 (38, 'woo-hoodie-blue-logo', 0, 0, '45.0000', '45.0000', 0, NULL, 'instock', 0, '0.00', 0, 'taxable', '');
@@ -3956,7 +4010,58 @@ INSERT INTO `wp_woocommerce_order_itemmeta` (`meta_id`, `order_item_id`, `meta_k
 (246, 30, 'cost', '10'),
 (247, 30, 'total_tax', '0'),
 (248, 30, 'taxes', 'a:1:{s:5:\"total\";a:0:{}}'),
-(249, 30, 'Items', 'Hoodie with Logo &times; 3, Belt &times; 2, Long Sleeve Tee &times; 2, Cap &times; 1');
+(249, 30, 'Items', 'Hoodie with Logo &times; 3, Belt &times; 2, Long Sleeve Tee &times; 2, Cap &times; 1'),
+(250, 31, '_product_id', '35'),
+(251, 31, '_variation_id', '0'),
+(252, 31, '_qty', '1'),
+(253, 31, '_tax_class', ''),
+(254, 31, '_line_subtotal', '18'),
+(255, 31, '_line_subtotal_tax', '0'),
+(256, 31, '_line_total', '18'),
+(257, 31, '_line_tax', '0'),
+(258, 31, '_line_tax_data', 'a:2:{s:5:\"total\";a:0:{}s:8:\"subtotal\";a:0:{}}'),
+(259, 32, '_product_id', '25'),
+(260, 32, '_variation_id', '0'),
+(261, 32, '_qty', '5'),
+(262, 32, '_tax_class', ''),
+(263, 32, '_line_subtotal', '100'),
+(264, 32, '_line_subtotal_tax', '0'),
+(265, 32, '_line_total', '100'),
+(266, 32, '_line_tax', '0'),
+(267, 32, '_line_tax_data', 'a:2:{s:5:\"total\";a:0:{}s:8:\"subtotal\";a:0:{}}'),
+(268, 33, '_product_id', '24'),
+(269, 33, '_variation_id', '0'),
+(270, 33, '_qty', '1'),
+(271, 33, '_tax_class', ''),
+(272, 33, '_line_subtotal', '25'),
+(273, 33, '_line_subtotal_tax', '0'),
+(274, 33, '_line_total', '25'),
+(275, 33, '_line_tax', '0'),
+(276, 33, '_line_tax_data', 'a:2:{s:5:\"total\";a:0:{}s:8:\"subtotal\";a:0:{}}'),
+(277, 34, '_product_id', '20'),
+(278, 34, '_variation_id', '0'),
+(279, 34, '_qty', '1'),
+(280, 34, '_tax_class', ''),
+(281, 34, '_line_subtotal', '16'),
+(282, 34, '_line_subtotal_tax', '0'),
+(283, 34, '_line_total', '16'),
+(284, 34, '_line_tax', '0'),
+(285, 34, '_line_tax_data', 'a:2:{s:5:\"total\";a:0:{}s:8:\"subtotal\";a:0:{}}'),
+(286, 35, '_product_id', '23'),
+(287, 35, '_variation_id', '0'),
+(288, 35, '_qty', '2'),
+(289, 35, '_tax_class', ''),
+(290, 35, '_line_subtotal', '90'),
+(291, 35, '_line_subtotal_tax', '0'),
+(292, 35, '_line_total', '90'),
+(293, 35, '_line_tax', '0'),
+(294, 35, '_line_tax_data', 'a:2:{s:5:\"total\";a:0:{}s:8:\"subtotal\";a:0:{}}'),
+(295, 36, 'method_id', 'flat_rate'),
+(296, 36, 'instance_id', '2'),
+(297, 36, 'cost', '10'),
+(298, 36, 'total_tax', '0'),
+(299, 36, 'taxes', 'a:1:{s:5:\"total\";a:0:{}}'),
+(300, 36, 'Items', 'Beanie with Logo &times; 1, Polo &times; 5, Long Sleeve Tee &times; 1, Cap &times; 1, Hoodie with Zipper &times; 2');
 
 -- --------------------------------------------------------
 
@@ -4005,7 +4110,13 @@ INSERT INTO `wp_woocommerce_order_items` (`order_item_id`, `order_item_name`, `o
 (27, 'Belt', 'line_item', 102),
 (28, 'Long Sleeve Tee', 'line_item', 102),
 (29, 'Cap', 'line_item', 102),
-(30, 'Flat rate', 'shipping', 102);
+(30, 'Flat rate', 'shipping', 102),
+(31, 'Beanie with Logo', 'line_item', 103),
+(32, 'Polo', 'line_item', 103),
+(33, 'Long Sleeve Tee', 'line_item', 103),
+(34, 'Cap', 'line_item', 103),
+(35, 'Hoodie with Zipper', 'line_item', 103),
+(36, 'Flat rate', 'shipping', 103);
 
 -- --------------------------------------------------------
 
@@ -4056,7 +4167,7 @@ INSERT INTO `wp_woocommerce_sessions` (`session_id`, `session_key`, `session_val
 (357, 't_001bd9a1f50de891c2bd413ae4e62a', 'a:11:{s:4:\"cart\";s:814:\"a:2:{s:32:\"4e732ced3463d06de0ca9a15b6153677\";a:11:{s:3:\"key\";s:32:\"4e732ced3463d06de0ca9a15b6153677\";s:10:\"product_id\";i:26;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:15;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:15;s:8:\"line_tax\";d:0;}s:32:\"6f4922f45568161a8cdf4ad2299f6d23\";a:11:{s:3:\"key\";s:32:\"6f4922f45568161a8cdf4ad2299f6d23\";s:10:\"product_id\";i:18;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:18;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:18;s:8:\"line_tax\";d:0;}}\";s:11:\"cart_totals\";s:391:\"a:15:{s:8:\"subtotal\";s:2:\"33\";s:12:\"subtotal_tax\";d:0;s:14:\"shipping_total\";s:2:\"10\";s:12:\"shipping_tax\";d:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";d:0;s:12:\"discount_tax\";d:0;s:19:\"cart_contents_total\";s:2:\"33\";s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";s:1:\"0\";s:7:\"fee_tax\";d:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";s:2:\"43\";s:9:\"total_tax\";d:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:8:\"customer\";s:740:\"a:27:{s:2:\"id\";s:1:\"0\";s:13:\"date_modified\";s:0:\"\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:0:\"\";s:9:\"address_1\";s:0:\"\";s:7:\"address\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:11:\"HO-CHI-MINH\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:0:\"\";s:18:\"shipping_address_1\";s:0:\"\";s:16:\"shipping_address\";s:0:\"\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:11:\"HO-CHI-MINH\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:0:\"\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";s:22:\"shipping_for_package_0\";s:370:\"a:2:{s:12:\"package_hash\";s:40:\"wc_ship_0eb93c8b3a5d2871de48c3984370576e\";s:5:\"rates\";a:1:{s:11:\"flat_rate:2\";O:16:\"WC_Shipping_Rate\":2:{s:7:\"\0*\0data\";a:6:{s:2:\"id\";s:11:\"flat_rate:2\";s:9:\"method_id\";s:9:\"flat_rate\";s:11:\"instance_id\";i:2;s:5:\"label\";s:9:\"Flat rate\";s:4:\"cost\";s:2:\"10\";s:5:\"taxes\";a:0:{}}s:12:\"\0*\0meta_data\";a:1:{s:5:\"Items\";s:16:\"Beanie &times; 1\";}}}}\";s:25:\"previous_shipping_methods\";s:39:\"a:1:{i:0;a:1:{i:0;s:11:\"flat_rate:2\";}}\";s:23:\"chosen_shipping_methods\";s:29:\"a:1:{i:0;s:11:\"flat_rate:2\";}\";s:22:\"shipping_method_counts\";s:14:\"a:1:{i:0;i:1;}\";}', 1684414077),
 (365, 't_ece754f1cd167a7c7f7d5736710bbf', 'a:1:{s:8:\"customer\";s:825:\"a:27:{s:2:\"id\";s:1:\"1\";s:13:\"date_modified\";s:25:\"2023-05-15T03:53:31+00:00\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:8:\"Quận 3\";s:9:\"address_1\";s:1:\"c\";s:7:\"address\";s:1:\"c\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:11:\"HO-CHI-MINH\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:8:\"Quận 3\";s:18:\"shipping_address_1\";s:1:\"c\";s:16:\"shipping_address\";s:1:\"c\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:11:\"HO-CHI-MINH\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:1:\"1\";s:10:\"first_name\";s:1:\"a\";s:9:\"last_name\";s:1:\"b\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:10:\"0122999333\";s:5:\"email\";s:22:\"nobmtpro2025@gmail.com\";s:19:\"shipping_first_name\";s:1:\"a\";s:18:\"shipping_last_name\";s:1:\"b\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";}', 1684376187),
 (375, 't_4dc075cb7fa8a1ecf66b470e30d4ee', 'a:1:{s:8:\"customer\";s:817:\"a:27:{s:2:\"id\";s:1:\"3\";s:13:\"date_modified\";s:25:\"2023-05-16T16:05:03+00:00\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:17:\"Huyện Hạ Hoà\";s:9:\"address_1\";s:1:\"4\";s:7:\"address\";s:1:\"4\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:7:\"PHU-THO\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:17:\"Huyện Hạ Hoà\";s:18:\"shipping_address_1\";s:1:\"4\";s:16:\"shipping_address\";s:1:\"4\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:7:\"PHU-THO\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:1:\"1\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:19:\"nobmtpro1@gmail.com\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";}', 1684461755),
-(376, '1', 'a:14:{s:4:\"cart\";s:1218:\"a:3:{s:32:\"1c383cd30b7c298ab50293adfecb7b18\";a:11:{s:3:\"key\";s:32:\"1c383cd30b7c298ab50293adfecb7b18\";s:10:\"product_id\";i:35;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:18;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:18;s:8:\"line_tax\";d:0;}s:32:\"8e296a067a37563370ded05f5a3bf3ec\";a:11:{s:3:\"key\";s:32:\"8e296a067a37563370ded05f5a3bf3ec\";s:10:\"product_id\";i:25;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:3;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:60;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:60;s:8:\"line_tax\";d:0;}s:32:\"1ff1de774005f8da13f42943881c655f\";a:11:{s:3:\"key\";s:32:\"1ff1de774005f8da13f42943881c655f\";s:10:\"product_id\";i:24;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:25;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:25;s:8:\"line_tax\";d:0;}}\";s:11:\"cart_totals\";s:394:\"a:15:{s:8:\"subtotal\";s:3:\"103\";s:12:\"subtotal_tax\";d:0;s:14:\"shipping_total\";s:2:\"10\";s:12:\"shipping_tax\";d:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";d:0;s:12:\"discount_tax\";d:0;s:19:\"cart_contents_total\";s:3:\"103\";s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";s:1:\"0\";s:7:\"fee_tax\";d:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";s:3:\"113\";s:9:\"total_tax\";d:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:410:\"a:1:{s:32:\"e369853df766fa44e1ed0ff613f563bd\";a:11:{s:3:\"key\";s:32:\"e369853df766fa44e1ed0ff613f563bd\";s:10:\"product_id\";i:34;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:18;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:18;s:8:\"line_tax\";d:0;}}\";s:22:\"shipping_for_package_0\";s:423:\"a:2:{s:12:\"package_hash\";s:40:\"wc_ship_91786f399085e90d0fe8599ae2204c82\";s:5:\"rates\";a:1:{s:11:\"flat_rate:2\";O:16:\"WC_Shipping_Rate\":2:{s:7:\"\0*\0data\";a:6:{s:2:\"id\";s:11:\"flat_rate:2\";s:9:\"method_id\";s:9:\"flat_rate\";s:11:\"instance_id\";i:2;s:5:\"label\";s:9:\"Flat rate\";s:4:\"cost\";s:2:\"10\";s:5:\"taxes\";a:0:{}}s:12:\"\0*\0meta_data\";a:1:{s:5:\"Items\";s:69:\"Beanie with Logo &times; 1, Polo &times; 3, Long Sleeve Tee &times; 1\";}}}}\";s:25:\"previous_shipping_methods\";s:39:\"a:1:{i:0;a:1:{i:0;s:11:\"flat_rate:2\";}}\";s:23:\"chosen_shipping_methods\";s:29:\"a:1:{i:0;s:11:\"flat_rate:2\";}\";s:22:\"shipping_method_counts\";s:14:\"a:1:{i:0;i:1;}\";s:8:\"customer\";s:824:\"a:27:{s:2:\"id\";s:1:\"1\";s:13:\"date_modified\";s:25:\"2023-05-17T07:54:26+00:00\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:8:\"Quận 3\";s:9:\"address_1\";s:1:\"c\";s:7:\"address\";s:1:\"c\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:11:\"HO-CHI-MINH\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:8:\"Quận 3\";s:18:\"shipping_address_1\";s:1:\"c\";s:16:\"shipping_address\";s:1:\"c\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:11:\"HO-CHI-MINH\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:1:\"a\";s:9:\"last_name\";s:1:\"b\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:10:\"0122999333\";s:5:\"email\";s:22:\"nobmtpro2025@gmail.com\";s:19:\"shipping_first_name\";s:1:\"a\";s:18:\"shipping_last_name\";s:1:\"b\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";s:21:\"chosen_payment_method\";s:4:\"bacs\";s:22:\"order_awaiting_payment\";N;s:10:\"wc_notices\";N;}', 1684463801),
+(376, '1', 'a:14:{s:4:\"cart\";s:6:\"a:0:{}\";s:11:\"cart_totals\";s:367:\"a:15:{s:8:\"subtotal\";i:0;s:12:\"subtotal_tax\";i:0;s:14:\"shipping_total\";i:0;s:12:\"shipping_tax\";i:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";i:0;s:12:\"discount_tax\";i:0;s:19:\"cart_contents_total\";i:0;s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";i:0;s:7:\"fee_tax\";i:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";i:0;s:9:\"total_tax\";i:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:22:\"shipping_for_package_0\";s:469:\"a:2:{s:12:\"package_hash\";s:40:\"wc_ship_dd4c1881bcdaad9048cbe79109dbb4df\";s:5:\"rates\";a:1:{s:11:\"flat_rate:2\";O:16:\"WC_Shipping_Rate\":2:{s:7:\"\0*\0data\";a:6:{s:2:\"id\";s:11:\"flat_rate:2\";s:9:\"method_id\";s:9:\"flat_rate\";s:11:\"instance_id\";i:2;s:5:\"label\";s:9:\"Flat rate\";s:4:\"cost\";s:2:\"10\";s:5:\"taxes\";a:0:{}}s:12:\"\0*\0meta_data\";a:1:{s:5:\"Items\";s:114:\"Beanie with Logo &times; 1, Polo &times; 5, Long Sleeve Tee &times; 1, Cap &times; 1, Hoodie with Zipper &times; 2\";}}}}\";s:25:\"previous_shipping_methods\";s:39:\"a:1:{i:0;a:1:{i:0;s:11:\"flat_rate:2\";}}\";s:23:\"chosen_shipping_methods\";s:29:\"a:1:{i:0;s:11:\"flat_rate:2\";}\";s:22:\"shipping_method_counts\";s:14:\"a:1:{i:0;i:1;}\";s:8:\"customer\";s:824:\"a:27:{s:2:\"id\";s:1:\"1\";s:13:\"date_modified\";s:25:\"2023-05-17T12:06:53+00:00\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:8:\"Quận 3\";s:9:\"address_1\";s:1:\"c\";s:7:\"address\";s:1:\"c\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:11:\"HO-CHI-MINH\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:8:\"Quận 3\";s:18:\"shipping_address_1\";s:1:\"c\";s:16:\"shipping_address\";s:1:\"c\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:11:\"HO-CHI-MINH\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:1:\"a\";s:9:\"last_name\";s:1:\"b\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:10:\"0122999333\";s:5:\"email\";s:22:\"nobmtpro2025@gmail.com\";s:19:\"shipping_first_name\";s:1:\"a\";s:18:\"shipping_last_name\";s:1:\"b\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";s:21:\"chosen_payment_method\";s:4:\"bacs\";s:22:\"order_awaiting_payment\";N;s:10:\"wc_notices\";N;}', 1684463801),
 (441, 't_7348c9620f094a8a5b6c478aea5c35', 'a:11:{s:4:\"cart\";s:410:\"a:1:{s:32:\"6f4922f45568161a8cdf4ad2299f6d23\";a:11:{s:3:\"key\";s:32:\"6f4922f45568161a8cdf4ad2299f6d23\";s:10:\"product_id\";i:18;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:18;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:18;s:8:\"line_tax\";d:0;}}\";s:11:\"cart_totals\";s:391:\"a:15:{s:8:\"subtotal\";s:2:\"18\";s:12:\"subtotal_tax\";d:0;s:14:\"shipping_total\";s:2:\"10\";s:12:\"shipping_tax\";d:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";d:0;s:12:\"discount_tax\";d:0;s:19:\"cart_contents_total\";s:2:\"18\";s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";s:1:\"0\";s:7:\"fee_tax\";d:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";s:2:\"28\";s:9:\"total_tax\";d:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:22:\"shipping_for_package_0\";s:370:\"a:2:{s:12:\"package_hash\";s:40:\"wc_ship_89f4cfbb50c14ff8118a929c2c51d54d\";s:5:\"rates\";a:1:{s:11:\"flat_rate:2\";O:16:\"WC_Shipping_Rate\":2:{s:7:\"\0*\0data\";a:6:{s:2:\"id\";s:11:\"flat_rate:2\";s:9:\"method_id\";s:9:\"flat_rate\";s:11:\"instance_id\";i:2;s:5:\"label\";s:9:\"Flat rate\";s:4:\"cost\";s:2:\"10\";s:5:\"taxes\";a:0:{}}s:12:\"\0*\0meta_data\";a:1:{s:5:\"Items\";s:16:\"Beanie &times; 1\";}}}}\";s:25:\"previous_shipping_methods\";s:39:\"a:1:{i:0;a:1:{i:0;s:11:\"flat_rate:2\";}}\";s:23:\"chosen_shipping_methods\";s:29:\"a:1:{i:0;s:11:\"flat_rate:2\";}\";s:22:\"shipping_method_counts\";s:14:\"a:1:{i:0;i:1;}\";s:8:\"customer\";s:740:\"a:27:{s:2:\"id\";s:1:\"0\";s:13:\"date_modified\";s:0:\"\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:0:\"\";s:9:\"address_1\";s:0:\"\";s:7:\"address\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:11:\"HO-CHI-MINH\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:0:\"\";s:18:\"shipping_address_1\";s:0:\"\";s:16:\"shipping_address\";s:0:\"\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:11:\"HO-CHI-MINH\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:0:\"\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";}', 1684482245),
 (449, 't_0f734acf4ee62e5d31a8b32105cf34', 'a:13:{s:4:\"cart\";s:814:\"a:2:{s:32:\"4e732ced3463d06de0ca9a15b6153677\";a:11:{s:3:\"key\";s:32:\"4e732ced3463d06de0ca9a15b6153677\";s:10:\"product_id\";i:26;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:2;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:30;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:30;s:8:\"line_tax\";d:0;}s:32:\"98f13708210194c475687be6106a3b84\";a:11:{s:3:\"key\";s:32:\"98f13708210194c475687be6106a3b84\";s:10:\"product_id\";i:20;s:12:\"variation_id\";i:0;s:9:\"variation\";a:0:{}s:8:\"quantity\";i:1;s:9:\"data_hash\";s:32:\"b5c1d5ca8bae6d4896cf1807cdf763f0\";s:13:\"line_tax_data\";a:2:{s:8:\"subtotal\";a:0:{}s:5:\"total\";a:0:{}}s:13:\"line_subtotal\";d:16;s:17:\"line_subtotal_tax\";d:0;s:10:\"line_total\";d:16;s:8:\"line_tax\";d:0;}}\";s:11:\"cart_totals\";s:391:\"a:15:{s:8:\"subtotal\";s:2:\"46\";s:12:\"subtotal_tax\";d:0;s:14:\"shipping_total\";s:2:\"10\";s:12:\"shipping_tax\";d:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";d:0;s:12:\"discount_tax\";d:0;s:19:\"cart_contents_total\";s:2:\"46\";s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";s:1:\"0\";s:7:\"fee_tax\";d:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";s:2:\"56\";s:9:\"total_tax\";d:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:8:\"customer\";s:740:\"a:27:{s:2:\"id\";s:1:\"0\";s:13:\"date_modified\";s:0:\"\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:0:\"\";s:9:\"address_1\";s:0:\"\";s:7:\"address\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:11:\"HO-CHI-MINH\";s:7:\"country\";s:2:\"VN\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:0:\"\";s:18:\"shipping_address_1\";s:0:\"\";s:16:\"shipping_address\";s:0:\"\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:11:\"HO-CHI-MINH\";s:16:\"shipping_country\";s:2:\"VN\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:0:\"\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";s:14:\"shipping_phone\";s:0:\"\";}\";s:21:\"chosen_payment_method\";s:4:\"bacs\";s:10:\"wc_notices\";N;s:22:\"shipping_for_package_0\";s:367:\"a:2:{s:12:\"package_hash\";s:40:\"wc_ship_b718c50fa654a970ea11048107c7fdc5\";s:5:\"rates\";a:1:{s:11:\"flat_rate:2\";O:16:\"WC_Shipping_Rate\":2:{s:7:\"\0*\0data\";a:6:{s:2:\"id\";s:11:\"flat_rate:2\";s:9:\"method_id\";s:9:\"flat_rate\";s:11:\"instance_id\";i:2;s:5:\"label\";s:9:\"Flat rate\";s:4:\"cost\";s:2:\"10\";s:5:\"taxes\";a:0:{}}s:12:\"\0*\0meta_data\";a:1:{s:5:\"Items\";s:13:\"Cap &times; 1\";}}}}\";s:25:\"previous_shipping_methods\";s:39:\"a:1:{i:0;a:1:{i:0;s:11:\"flat_rate:2\";}}\";s:23:\"chosen_shipping_methods\";s:29:\"a:1:{i:0;s:11:\"flat_rate:2\";}\";s:22:\"shipping_method_counts\";s:14:\"a:1:{i:0;i:1;}\";}', 1684495258);
 
@@ -4300,7 +4411,7 @@ INSERT INTO `wp_yoast_indexable` (`id`, `permalink`, `permalink_hash`, `object_i
 (16, 'http://localhost/woo2/color/yellow/', '35:9cbc012688e36b1f10e01eceff15c804', 29, 'term', 'pa_color', NULL, NULL, NULL, NULL, 'Yellow', NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, '2023-05-06 08:24:59', '2023-05-09 06:42:33', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, '2023-05-05 04:21:30', '2023-05-05 04:21:16'),
 (17, 'http://localhost/woo2/berocket_taxonomy_data/isdisabled/', '56:d1ddb72230cff0bf34cb4b39f10ba000', 32, 'term', 'berocket_taxonomy_data', NULL, NULL, NULL, NULL, 'isdisabled', NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, '2023-05-06 08:24:59', '2023-05-09 06:42:33', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, NULL, NULL),
 (18, 'http://localhost/woo2/?post_type=br_product_filter&p=72', '55:573d8d813b726b1add6f2ee2b8815ff2', 72, 'post', 'br_product_filter', 1, 0, NULL, NULL, 'Color', 'publish', NULL, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, '2023-05-06 08:25:00', '2023-05-09 06:42:32', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, '2023-05-06 04:41:49', '2023-05-05 15:25:28'),
-(19, 'http://localhost/woo2/author/admin/', '35:35e96665dfa0d8ad57e4361512a45d1d', 1, 'user', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, 'https://0.gravatar.com/avatar/346953c7f0800851fcbd0297920a65a4?s=500&d=mm&r=g', NULL, NULL, 'gravatar-image', NULL, NULL, 'https://0.gravatar.com/avatar/346953c7f0800851fcbd0297920a65a4?s=500&d=mm&r=g', NULL, 'gravatar-image', NULL, NULL, NULL, NULL, '2023-05-06 08:25:00', '2023-05-17 00:54:26', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, '2023-05-17 07:54:26', '2023-05-05 04:17:36'),
+(19, 'http://localhost/woo2/author/admin/', '35:35e96665dfa0d8ad57e4361512a45d1d', 1, 'user', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, 'https://0.gravatar.com/avatar/346953c7f0800851fcbd0297920a65a4?s=500&d=mm&r=g', NULL, NULL, 'gravatar-image', NULL, NULL, 'https://0.gravatar.com/avatar/346953c7f0800851fcbd0297920a65a4?s=500&d=mm&r=g', NULL, 'gravatar-image', NULL, NULL, NULL, NULL, '2023-05-06 08:25:00', '2023-05-17 05:06:53', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, '2023-05-17 12:06:53', '2023-05-05 04:17:36'),
 (20, 'http://localhost/woo2/?post_type=br_product_filter&p=73', '55:a01e182769a782400e0226153e75f533', 73, 'post', 'br_product_filter', 1, 0, NULL, NULL, 'Price', 'publish', NULL, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, '2023-05-06 08:25:00', '2023-05-09 06:42:32', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, '2023-05-05 15:34:24', '2023-05-05 15:33:25'),
 (21, 'http://localhost/woo2/?post_type=br_product_filter&p=74', '55:9c7ad5f633ac34e52d99c9768c690197', 74, 'post', 'br_product_filter', 1, 0, NULL, NULL, 'Categories', 'publish', NULL, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, '2023-05-06 08:25:00', '2023-05-09 06:42:32', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, '2023-05-06 04:40:30', '2023-05-06 04:39:27'),
 (22, 'http://localhost/woo2/?post_type=br_product_filter&p=75', '55:1b4980903237e5c60197103f3e646c4d', 75, 'post', 'br_product_filter', 1, 0, NULL, NULL, 'Size', 'publish', NULL, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, '2023-05-06 08:25:00', '2023-05-09 06:42:32', 1, NULL, NULL, NULL, NULL, 0, NULL, 2, '2023-05-06 04:42:20', '2023-05-06 04:41:57'),
@@ -4964,13 +5075,13 @@ ALTER TABLE `wp_yoast_seo_links`
 -- AUTO_INCREMENT cho bảng `wp_actionscheduler_actions`
 --
 ALTER TABLE `wp_actionscheduler_actions`
-  MODIFY `action_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
+  MODIFY `action_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_actionscheduler_claims`
 --
 ALTER TABLE `wp_actionscheduler_claims`
-  MODIFY `claim_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2101;
+  MODIFY `claim_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2124;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_actionscheduler_groups`
@@ -4982,7 +5093,7 @@ ALTER TABLE `wp_actionscheduler_groups`
 -- AUTO_INCREMENT cho bảng `wp_actionscheduler_logs`
 --
 ALTER TABLE `wp_actionscheduler_logs`
-  MODIFY `log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=239;
+  MODIFY `log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=242;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_berocket_termmeta`
@@ -5000,7 +5111,7 @@ ALTER TABLE `wp_commentmeta`
 -- AUTO_INCREMENT cho bảng `wp_comments`
 --
 ALTER TABLE `wp_comments`
-  MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_links`
@@ -5012,19 +5123,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT cho bảng `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4521;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4548;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1087;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1126;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_termmeta`
@@ -5132,13 +5243,13 @@ ALTER TABLE `wp_woocommerce_log`
 -- AUTO_INCREMENT cho bảng `wp_woocommerce_order_itemmeta`
 --
 ALTER TABLE `wp_woocommerce_order_itemmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=250;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=301;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_woocommerce_order_items`
 --
 ALTER TABLE `wp_woocommerce_order_items`
-  MODIFY `order_item_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `order_item_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_woocommerce_payment_tokenmeta`
@@ -5156,7 +5267,7 @@ ALTER TABLE `wp_woocommerce_payment_tokens`
 -- AUTO_INCREMENT cho bảng `wp_woocommerce_sessions`
 --
 ALTER TABLE `wp_woocommerce_sessions`
-  MODIFY `session_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=470;
+  MODIFY `session_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=487;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_woocommerce_shipping_zones`

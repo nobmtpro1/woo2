@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 11:42+0000\n"
+"PO-Revision-Date: 2023-05-17 11:51+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -27722,7 +27722,7 @@ msgstr ""
 #: templates/loop/no-products-found.php:21
 #: packages/woocommerce-blocks/build/legacy-template.js:11
 msgid "No products were found matching your selection."
-msgstr ""
+msgstr "Không tìm thấy sản phẩm nào phù hợp với lựa chọn của bạn."
 
 #: packages/woocommerce-blocks/build/product-category.js:6
 msgid "No products were found that matched your selection."
