@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 07:16+0000\n"
+"PO-Revision-Date: 2023-05-17 07:40+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -36785,7 +36785,7 @@ msgstr ""
 #. translators: %s: search query
 #: includes/wc-template-functions.php:1088
 msgid "Search results: &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Kết quả tìm kiếm: &ldquo;%s&rdquo;"
 
 #: src/Internal/Admin/ProductReviews/Reviews.php:607
 msgid "Search Reviews"

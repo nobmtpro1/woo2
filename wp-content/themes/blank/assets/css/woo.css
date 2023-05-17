@@ -20,7 +20,7 @@ select:focus {
   outline: none;
 }
 
-.woocommerce a.added_to_cart{
+.woocommerce a.added_to_cart {
   display: none;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ select:focus {
   text-align: center;
 }
 
-.woocommerce span.onsale{
+.woocommerce span.onsale {
   background-color: black;
   color: white;
   width: 50px;
@@ -44,4 +44,18 @@ select:focus {
   justify-content: center;
   align-items: center;
   line-height: 1;
+}
+
+:where(body:not(.woocommerce-block-theme-has-button-styles))
+  .woocommerce
+  a.button,
+:where(body:not(.woocommerce-block-theme-has-button-styles))
+  .woocommerce
+  button.button,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles))
+  #respond
+  input#submit {
+  background-color: black !important;
+  color: white !important;
+  border-radius: 0 !important;
 }
