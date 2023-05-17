@@ -12,6 +12,11 @@
   text-align: center;
   margin-top: auto !important;
 }
+@media only screen and (max-width: 1025px) {
+  .my-cart-apply-coupon-button {
+    margin-top: 10px !important;
+  }
+}
 .my-cart-apply-coupon-input {
   width: auto !important;
 }
@@ -27,8 +32,12 @@
   border-radius: 0 !important;
 }
 
-.my-update-cart-button{
+.my-update-cart-button {
   background: black !important;
-  color:  white !important;
+  color: white !important;
   border-radius: 0 !important;
+}
+
+.woocommerce-cart table.cart input {
+  display: inline-block !important;
 }

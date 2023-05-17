@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 07:40+0000\n"
+"PO-Revision-Date: 2023-05-17 07:58+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -2575,7 +2575,7 @@ msgstr ""
 #: includes/gateways/class-wc-payment-gateway-echeck.php:51
 #: assets/client/admin/app/index.js:2
 msgid "Account number"
-msgstr ""
+msgstr "Số tài khoản"
 
 #: packages/woocommerce-blocks/build/checkout.js:33
 msgid "Account options"
@@ -5946,7 +5946,7 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:319
 msgid "Bank"
-msgstr ""
+msgstr "Ngân hàng"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:422
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:427
@@ -29818,7 +29818,7 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:353
 msgid "Our bank details"
-msgstr ""
+msgstr "Thông tin tài khoản ngân hàng"
 
 #. translators: a url
 #: includes/admin/views/html-admin-page-addons.php:134

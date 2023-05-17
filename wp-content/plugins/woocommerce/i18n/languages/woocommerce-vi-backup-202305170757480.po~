@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 07:14+0000\n"
+"PO-Revision-Date: 2023-05-17 07:57+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -19810,11 +19810,11 @@ msgstr "Còn hàng"
 #: assets/client/admin/chunks/analytics-report-stock.js:1
 #: assets/client/admin/product-editor/index.js:2
 msgid "In stock"
-msgstr ""
+msgstr "Còn hàng"
 
 #: assets/client/admin/chunks/homescreen.js:1
 msgid "in stock"
-msgstr ""
+msgstr "Còn hàng"
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:523
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:694
@@ -29818,7 +29818,7 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:353
 msgid "Our bank details"
-msgstr ""
+msgstr "Thông tin tài khoản ngân hàng"
 
 #. translators: a url
 #: includes/admin/views/html-admin-page-addons.php:134
@@ -32805,7 +32805,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/all-reviews.js:9
 #: packages/woocommerce-blocks/build/reviews-by-category.js:14
 msgid "Product name"
-msgstr ""
+msgstr "Tên sản phẩm"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:380
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1275
@@ -36785,7 +36785,7 @@ msgstr ""
 #. translators: %s: search query
 #: includes/wc-template-functions.php:1088
 msgid "Search results: &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Kết quả tìm kiếm: &ldquo;%s&rdquo;"
 
 #: src/Internal/Admin/ProductReviews/Reviews.php:607
 msgid "Search Reviews"
