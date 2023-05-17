@@ -28,4 +28,26 @@
   border-radius: 0 !important;
   text-align: center;
   margin-top: auto !important;
+  margin-top: 5px !important;
+}
+
+.yith-wcwl-add-button a {
+  display: flex !important; 
+  justify-content: center !important;
+  align-content: center !important;
+}
+
+@media only screen and (max-width: 1025px) {
+  .my-product-list {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    gap: 0px;
+    padding-top: 0;
+  }
+
+  .my-sidebar {
+    width: 100%;
+    padding-top: 0;
+  }
 }

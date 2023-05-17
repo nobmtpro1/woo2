@@ -1,0 +1,11 @@
+.my-single-add-to-cart {
+  background: black !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border-radius: 0 !important;
+}
+
+.woo-variation-swatches.wvs-show-label .variations th {
+  display: flex;
+  justify-content: flex-start;
+}

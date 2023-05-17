@@ -27,9 +27,15 @@
                 <input type="hidden" name="post_type" value="product">
                 <input type="text" id="search-input" placeholder="Search here....." name="s">
             </form>
+            <a href="<?= bloginfo('url') ?>/wishlist" class="account">
+                <i class="fa-solid fa-heart"></i>
+            </a>
             <a href="<?= bloginfo('url') ?>/my-account" class="account">
                 <i class="fa-solid fa-user"></i>
             </a>
             <?php include 'mini-cart.php' ?>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
         </div>
     </header>
