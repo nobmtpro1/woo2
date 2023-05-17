@@ -32,7 +32,7 @@
 }
 
 .yith-wcwl-add-button a {
-  display: flex !important; 
+  display: flex !important;
   justify-content: center !important;
   align-content: center !important;
 }
@@ -49,5 +49,12 @@
   .my-sidebar {
     width: 100%;
     padding-top: 0;
+  }
+
+  .my-add-to-cart-button {
+    font-size: 12px !important;
+  }
+  .yith-wcwl-add-button a {
+    font-size: 12px !important;
   }
 }

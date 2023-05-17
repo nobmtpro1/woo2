@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 06:45+0000\n"
+"PO-Revision-Date: 2023-05-17 07:15+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -2746,7 +2746,7 @@ msgstr ""
 #: includes/wc-account-functions.php:206
 #: src/Internal/Admin/Orders/ListTable.php:738
 msgid "Actions"
-msgstr ""
+msgstr "Hành động"
 
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:329
 msgid ""
@@ -7703,7 +7703,7 @@ msgstr ""
 
 #: templates/myaccount/downloads.php:40 templates/myaccount/orders.php:100
 msgid "Browse products"
-msgstr ""
+msgstr "Xem sản phẩm"
 
 #: packages/woocommerce-blocks/assets/js/blocks/checkout/empty-cart/index.js:37
 #: packages/woocommerce-blocks/build/checkout-frontend.js:3
@@ -10260,7 +10260,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:59
 msgid "Confirm new password"
-msgstr ""
+msgstr "Xác nhận mật khẩu mới"
 
 #: i18n/countries.php:68
 msgid "Congo (Brazzaville)"
@@ -11650,7 +11650,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:51
 msgid "Current password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Mật khẩu hiện tại (để trống nếu không thay đổi)"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1818
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1765
@@ -12281,7 +12281,7 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-orders.js:1
 #: assets/client/admin/chunks/analytics-report-revenue.js:1
 msgid "Date"
-msgstr ""
+msgstr "Ngày"
 
 #: assets/client/admin/chunks/analytics-report-customers.js:1
 msgctxt "date"
@@ -13364,7 +13364,7 @@ msgstr ""
 #: includes/class-wc-form-handler.php:270
 #: templates/myaccount/form-edit-account.php:37
 msgid "Display name"
-msgstr ""
+msgstr "Tên hiển thị"
 
 #. translators: 1: first name 2: last name
 #: includes/class-wc-customer.php:819
@@ -14348,7 +14348,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/attribute-filter.js:28
 #: packages/woocommerce-blocks/build/wc-shipping-method-pickup-location.js:237
 msgid "Edit"
-msgstr ""
+msgstr "Chỉnh sửa"
 
 #: assets/client/admin/chunks/3628.js:1
 msgid "edit"
@@ -17173,6 +17173,9 @@ msgid ""
 "orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
 "and <a href=\"%3$s\">edit your password and account details</a>."
 msgstr ""
+"Từ bảng điều khiển tài khoản của bạn, bạn có thể xem <a href=\"%1$s\">đơn "
+"hàng gần đây</a>, quản lý <a href=\"%2$s\">địa chỉ</a>, và <a href=\"%3$s\">"
+"sửa mật khẩu và thông tin tài khoản của bạn</a>."
 
 #: i18n/states.php:889
 msgid "Frosinone"
@@ -18308,7 +18311,7 @@ msgstr ""
 #. translators: 1: user display name 2: logout url
 #: templates/myaccount/dashboard.php:35
 msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
-msgstr ""
+msgstr "Xin chào %1$s (không phải %1$s? <a href=\"%2$s\">Đăng xuất</a>)"
 
 #. translators: %s: Customer username
 #: packages/woocommerce-blocks/templates/emails/customer-new-account-blocks.php:23
@@ -19796,7 +19799,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/product-stock-indicator-frontend.js:3
 #: packages/woocommerce-blocks/build/product-stock-indicator.js:3
 msgid "In Stock"
-msgstr ""
+msgstr "Còn hàng"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:274
 #: includes/admin/reports/class-wc-report-stock.php:116
@@ -19807,11 +19810,11 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-stock.js:1
 #: assets/client/admin/product-editor/index.js:2
 msgid "In stock"
-msgstr ""
+msgstr "Còn hàng"
 
 #: assets/client/admin/chunks/homescreen.js:1
 msgid "in stock"
-msgstr ""
+msgstr "Còn hàng"
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:523
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:694
@@ -27123,7 +27126,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:55
 msgid "New password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Mật khẩu mới (để trống nếu không thay đổi)"
 
 #: includes/class-wc-form-handler.php:302
 msgid "New passwords do not match."
@@ -27555,7 +27558,7 @@ msgstr ""
 
 #: templates/myaccount/downloads.php:42
 msgid "No downloads available yet."
-msgstr ""
+msgstr "Không có mục tải xuống nào."
 
 #: assets/client/admin/chunks/3628.js:1
 msgid "No end date"
@@ -29081,7 +29084,7 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-products.js:1
 msgid "Order"
 msgid_plural "Orders"
-msgstr[0] ""
+msgstr[0] "Đơn hàng"
 
 #: assets/client/admin/chunks/analytics-report-revenue.js:1
 #: assets/client/admin/chunks/analytics-report-taxes.js:1
@@ -30343,7 +30346,7 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:48
 msgid "Password change"
-msgstr ""
+msgstr "Đổi mật khẩu"
 
 #: templates/myaccount/lost-password-confirmation.php:20
 msgid "Password reset email has been sent."
@@ -35196,7 +35199,7 @@ msgstr ""
 
 #: includes/class-wc-ajax.php:301 templates/cart/cart-empty.php:35
 msgid "Return to shop"
-msgstr ""
+msgstr "Trở về cửa hàng"
 
 #: assets/client/admin/components/index.js:2
 msgid "Return to the date input field."
@@ -36281,7 +36284,7 @@ msgstr ""
 #: templates/myaccount/form-edit-account.php:69
 #: packages/woocommerce-blocks/build/wc-shipping-method-pickup-location.js:241
 msgid "Save changes"
-msgstr ""
+msgstr "Lưu thay đổi"
 
 #: includes/admin/class-wc-admin-assets.php:304
 msgid "Save changes before changing page?"
@@ -37912,7 +37915,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout-blocks/shipping-address-frontend.js:1
 #: packages/woocommerce-blocks/build/checkout.js:29
 msgid "Shipping address"
-msgstr ""
+msgstr "Địa chỉ nhận hàng"
 
 #: packages/woocommerce-blocks/src/StoreApi/Utilities/OrderController.php:313
 msgid "shipping address"
@@ -38786,7 +38789,7 @@ msgstr "Hiển thị 1-X trên X kết quả"
 #: templates/loop/result-count.php:31
 msgid "Showing all %d result"
 msgid_plural "Showing all %d results"
-msgstr[0] ""
+msgstr[0] "Hiển thị tất cả %d kết quả"
 
 #: packages/woocommerce-blocks/assets/js/blocks/products/all-products/edit.js:97
 #: packages/woocommerce-blocks/build/all-products.js:36
@@ -38819,7 +38822,7 @@ msgstr ""
 
 #: templates/loop/result-count.php:28
 msgid "Showing the single result"
-msgstr ""
+msgstr "Hiển thị một kết quả"
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1971
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2430
@@ -40450,7 +40453,7 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-stock.js:1
 #: assets/client/admin/chunks/analytics-report-variations.js:1
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: src/Admin/API/Notes.php:111 src/Admin/API/Notes.php:684
 msgid "Status of note."
@@ -43050,7 +43053,7 @@ msgstr ""
 
 #: templates/myaccount/my-address.php:46
 msgid "The following addresses will be used on the checkout page by default."
-msgstr ""
+msgstr "Theo mặc định, các địa chỉ sau sẽ được sử dụng trên trang thanh toán."
 
 #: packages/woocommerce-blocks/build/all-products.js:5
 #: packages/woocommerce-blocks/build/all-reviews.js:9
@@ -45264,6 +45267,8 @@ msgid ""
 "This will be how your name will be displayed in the account section and in "
 "reviews"
 msgstr ""
+"Đây sẽ là cách tên của bạn sẽ được hiển thị trong phần tài khoản và trong "
+"các bài đánh giá"
 
 #: includes/admin/views/html-quick-edit-product.php:185
 msgid "This will change the stock status of all variations."
@@ -48087,7 +48092,7 @@ msgstr ""
 #: includes/admin/views/html-admin-page-status-logs.php:40
 #: includes/wc-account-functions.php:289
 msgid "View"
-msgstr ""
+msgstr "Xem"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2296
 msgid "View &amp; Customize"
@@ -51115,7 +51120,7 @@ msgstr ""
 
 #: includes/wc-template-functions.php:3676
 msgid "Your cart is currently empty."
-msgstr ""
+msgstr "Giỏ hàng của bạn đang trống."
 
 #: includes/admin/settings/class-wc-settings-shipping.php:290
 #: includes/admin/settings/class-wc-settings-shipping.php:323

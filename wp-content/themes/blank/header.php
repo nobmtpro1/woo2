@@ -25,11 +25,11 @@
         <div class="links">
             <form class="search" action="<?= bloginfo('url') ?>">
                 <input type="hidden" name="post_type" value="product">
-                <input type="text" id="search-input" placeholder="Search here....." name="s">
+                <input type="text" id="search-input" placeholder="Tìm kiếm....." name="s">
             </form>
-            <a href="<?= bloginfo('url') ?>/wishlist" class="account">
+            <!-- <a href="<?= bloginfo('url') ?>/wishlist" class="account">
                 <i class="fa-solid fa-heart"></i>
-            </a>
+            </a> -->
             <a href="<?= bloginfo('url') ?>/my-account" class="account">
                 <i class="fa-solid fa-user"></i>
             </a>
