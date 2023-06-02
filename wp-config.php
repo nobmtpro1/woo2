@@ -1,5 +1,5 @@
 <?php
-
+include 'env.php';
 /**
  * The base configuration for WordPress
  *
@@ -21,13 +21,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'woo22');
+define('DB_NAME', $DB_NAME);
 
 /** Database username */
-define('DB_USER', 'root');
+define('DB_USER', $DB_USER);
 
 /** Database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', $DB_PASSWORD);
 
 /** Database hostname */
 define('DB_HOST', 'localhost');
