@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 11:42+0000\n"
+"PO-Revision-Date: 2023-06-02 09:46+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -793,7 +793,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/reviews-by-category.js:24
 msgid "%d product"
 msgid_plural "%d products"
-msgstr[0] ""
+msgstr[0] "%d sản phẩm"
 
 #. translators: %s is an integer higher than 0 (1, 2, 3...)
 #: packages/woocommerce-blocks/build/all-products-frontend.js:9
@@ -812,7 +812,7 @@ msgstr[0] ""
 #: assets/client/admin/chunks/analytics-report-categories.js:1
 #: assets/client/admin/chunks/analytics-report-products.js:1
 msgid "%d products"
-msgstr ""
+msgstr "%d sản phẩm"
 
 #: assets/client/admin/components/index.js:2
 msgid "%d result found, use up and down arrow keys to navigate."
@@ -1400,7 +1400,7 @@ msgstr[0] ""
 #: packages/woocommerce-blocks/build/stock-filter.js:3
 msgid "%s product"
 msgid_plural "%s products"
-msgstr[0] ""
+msgstr[0] "%s sản phẩm"
 
 #. translators: %d: products count
 #: includes/admin/importers/views/html-csv-import-done.php:20
@@ -7103,7 +7103,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/checkout/block.json
 msgctxt "block title"
 msgid "Checkout"
-msgstr ""
+msgstr "Thanh toán"
 
 #: packages/woocommerce-blocks/assets/js/blocks/checkout/inner-blocks/checkout-fields-block/block.json
 #: packages/woocommerce-blocks/build/inner-blocks/checkout-fields-block/block.json
@@ -7646,7 +7646,7 @@ msgstr ""
 #: includes/wc-template-functions.php:2328
 msgctxt "breadcrumb"
 msgid "Home"
-msgstr ""
+msgstr "Trang chủ"
 
 #: packages/woocommerce-blocks/build/breadcrumbs.js:1
 msgid "Breadcrumbs"
@@ -8582,7 +8582,7 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/blocks/cart/index.js:22
 #: packages/woocommerce-blocks/build/cart.js:41
 msgid "Cart"
-msgstr ""
+msgstr "Giỏ hàng"
 
 #: src/Internal/Features/FeaturesController.php:119
 msgid "Cart & Checkout Blocks"
@@ -8742,7 +8742,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/reviews-by-category.js:14
 msgid "Category"
 msgid_plural "Categories"
-msgstr[0] ""
+msgstr[0] "Danh mục"
 
 #: includes/class-wc-post-types.php:855
 msgid "Category added."
@@ -8850,7 +8850,7 @@ msgstr ""
 #: templates/single-product/meta.php:34
 msgid "Category:"
 msgid_plural "Categories:"
-msgstr[0] ""
+msgstr[0] "Danh mục:"
 
 #: i18n/states.php:348
 msgid "Cauca"
@@ -9177,7 +9177,7 @@ msgstr ""
 #: includes/customizer/class-wc-shop-customizer.php:678
 #: includes/wc-template-functions.php:2236
 msgid "Checkout"
-msgstr ""
+msgstr "Thanh toán"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:174
 msgid "Checkout endpoints"
@@ -10518,7 +10518,7 @@ msgstr ""
 
 #: includes/wc-cart-functions.php:124
 msgid "Continue shopping"
-msgstr ""
+msgstr "Tiếp tục xem sản phẩm"
 
 #: assets/client/admin/chunks/multichannel-marketing.js:1
 msgid ""
@@ -19406,7 +19406,7 @@ msgstr ""
 
 #: templates/checkout/form-coupon.php:31
 msgid "If you have a coupon code, please apply it below."
-msgstr ""
+msgstr "Nếu bạn có mã giảm giá, vui lòng áp dụng nó bên dưới."
 
 #: assets/client/admin/app/index.js:2
 msgid ""
@@ -27717,12 +27717,12 @@ msgstr ""
 
 #: templates/cart/mini-cart.php:92
 msgid "No products in the cart."
-msgstr ""
+msgstr "Không có sản phẩm nào trong giỏ."
 
 #: templates/loop/no-products-found.php:21
 #: packages/woocommerce-blocks/build/legacy-template.js:11
 msgid "No products were found matching your selection."
-msgstr ""
+msgstr "Không tìm thấy sản phẩm nào phù hợp với lựa chọn của bạn."
 
 #: packages/woocommerce-blocks/build/product-category.js:6
 msgid "No products were found that matched your selection."
@@ -30063,7 +30063,7 @@ msgstr ""
 #: includes/class-wc-install.php:756
 msgctxt "Page title"
 msgid "Checkout"
-msgstr ""
+msgstr "Thanh toán"
 
 #: includes/class-wc-install.php:761
 msgctxt "Page title"
@@ -33321,7 +33321,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/reviews-by-product.js:2
 #: packages/woocommerce-blocks/build/single-product.js:2
 msgid "Products"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: assets/client/admin/chunks/6743.js:1
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
@@ -38498,7 +38498,7 @@ msgstr ""
 #: packages/woocommerce-blocks/assets/js/blocks/cart/index.js:33
 #: packages/woocommerce-blocks/build/cart.js:41
 msgid "Shopping cart."
-msgstr ""
+msgstr "Giỏ hàng."
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:517
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:681
@@ -40937,7 +40937,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/mini-cart-contents-block/footer-frontend.js:1
 #: packages/woocommerce-blocks/build/mini-cart-contents.js:5
 msgid "Subtotal"
-msgstr "Tổng đơn hàng"
+msgstr "Tạm tính"
 
 #: includes/abstracts/abstract-wc-order.php:2208
 #: includes/wc-template-functions.php:2247
@@ -40946,7 +40946,7 @@ msgstr "Tổng đơn hàng"
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout.js:23
 msgid "Subtotal:"
-msgstr "Tổng đơn hàng:"
+msgstr "Tạm tính:"
 
 #: includes/class-wc-countries.php:840
 msgid "Suburb"
