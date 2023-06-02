@@ -21,13 +21,13 @@ include 'env.php';
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', $DB_NAME);
+define('DB_NAME', $ENV_DB_NAME);
 
 /** Database username */
-define('DB_USER', $DB_USER);
+define('DB_USER', $ENV_DB_USER);
 
 /** Database password */
-define('DB_PASSWORD', $DB_PASSWORD);
+define('DB_PASSWORD', $ENV_DB_PASSWORD);
 
 /** Database hostname */
 define('DB_HOST', 'localhost');
