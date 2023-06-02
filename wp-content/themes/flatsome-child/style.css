@@ -8,9 +8,25 @@ Version: 3.0
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
 
-
 @media only screen and (max-width: 48em) {
-/*************** ADD MOBILE ONLY CSS HERE  ***************/
+  /*************** ADD MOBILE ONLY CSS HERE  ***************/
+}
 
+:root {
+  --primary: #42e5fc;
+}
 
+.searchform .button.icon{
+    background: black !important;
+}
+
+#my-call-now{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+    background: var(--primary);
+    border-radius:  0 20px 0 20px;
+    color: blanchedalmond;
+    display: inline-block;
+    margin: 20px 0;
 }
