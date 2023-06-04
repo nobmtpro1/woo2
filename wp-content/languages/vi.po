@@ -9702,7 +9702,7 @@ msgstr "Changeset mới"
 msgid "View Pages"
 msgstr "Xem trang"
 
-#: wp-includes/post.php:171 wp-includes/post.php:172 wp-admin/about.php:201
+#: wp-includes/post.php:171 wp-includes/post.php:172 wp-admin/about.php:227
 msgid "Custom CSS"
 msgstr "CSS tùy chỉnh"
 
