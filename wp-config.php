@@ -19,15 +19,18 @@ include 'env.php';
  * @package WordPress
  */
 
+define('DISALLOW_FILE_EDIT', true);
+define('DISALLOW_FILE_MODS', @$ENV_DISALLOW_FILE_MODS ?? false);
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', $ENV_DB_NAME);
+define('DB_NAME', @$ENV_DB_NAME);
 
 /** Database username */
-define('DB_USER', $ENV_DB_USER);
+define('DB_USER', @$ENV_DB_USER);
 
 /** Database password */
-define('DB_PASSWORD', $ENV_DB_PASSWORD);
+define('DB_PASSWORD', @$ENV_DB_PASSWORD);
 
 /** Database hostname */
 define('DB_HOST', 'localhost');
