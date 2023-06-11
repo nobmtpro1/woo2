@@ -13,26 +13,25 @@ Version: 3.0
 }
 
 :root {
-  --primary: #42e5fc;
+  --primary: #7495cb;
 }
 
-.searchform .button.icon{
-    background: black !important;
+.searchform .button.icon {
+  background: black !important;
 }
 
-#my-call-now{
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px 40px;
-    background: var(--primary);
-    border-radius:  0 20px 0 20px;
-    color: blanchedalmond;
-    display: inline-block;
-    margin: 20px 0;
+#my-call-now {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 40px;
+  background: var(--primary);
+  border-radius: 0 20px 0 20px;
+  color: blanchedalmond;
+  display: inline-block;
+  margin: 20px 0;
 }
 
-.woocommerce-billing-fields p{
+.woocommerce-billing-fields p {
   width: 100% !important;
   margin-right: 0 !important;
 }
-
