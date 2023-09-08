@@ -23,7 +23,7 @@
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
 define( 'WPCACHEHOME', 'C:\xampp\htdocs\woo2\wp-content\plugins\wp-super-cache/' );
-define('DB_NAME', 'woo2');
+define('DB_NAME', 'wp_osaka');
 
 /** Database username */
 define('DB_USER', 'root');
